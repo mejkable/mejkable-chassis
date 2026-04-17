@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Agent harness local state
+.claude/settings.local.json
+.cursor/
+.aider*
+
+# Env
+.env
+.env.*
+
+# Large assets (track with git-lfs or keep external)
+# Uncomment if needed:
+# library/assets/*.stl
+# library/assets/*.step
+# library/assets/*.psd
+# library/assets/*.ai
