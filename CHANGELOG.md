@@ -1,6 +1,6 @@
 # Changelog — Mejkable Chassis
 
-## v0.1 — Initial Public Release
+## v0.1 — Initial Public Release (2026-04-17)
 
 - 10 phases fully built out (00 through 09)
 - 5 core files per phase: BRIEF, PROMPT, WORKBOOK, DECISIONS, HANDOVER

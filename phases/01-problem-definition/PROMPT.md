@@ -185,7 +185,7 @@ Explore the emotional and aspirational layer:
 2. What does it **say about them** to others?
 3. What **identity** does it reinforce or help them express?
 4. What's the **emotional gap** in current alternatives? (They work functionally but feel ___?)
-5. Are there **rituals** associated with this product category? (Lighting a candle, unboxing a game, etc.)
+5. Are there **rituals** associated with this product category? (Brewing morning coffee, setting a table for guests, etc.)
 6. What **sensory qualities** matter? (Touch, weight, sound, smell, visual appeal)
 
 How should these emotional dimensions influence design decisions?

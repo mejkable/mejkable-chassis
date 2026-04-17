@@ -104,7 +104,7 @@ Every HANDOVER.md follows this structure:
 - Folders: lowercase, hyphenated, prefixed with phase number (`00-opportunity-discovery`)
 - Core files: UPPERCASE.md (`BRIEF.md`, `PROMPT.md`, etc.)
 - Supporting files: lowercase, hyphenated (`market-sizing-notes.md`, `competitor-matrix.md`)
-- Assets: descriptive, lowercase, hyphenated (`led-candle-concept-sketch-01.png`)
+- Assets: descriptive, lowercase, hyphenated (`desk-lamp-concept-sketch-01.png`)
 
 ---
 

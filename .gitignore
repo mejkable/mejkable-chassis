@@ -8,6 +8,7 @@ Thumbs.db
 *~
 .vscode/
 .idea/
+.obsidian/
 
 # Agent harness local state
 .claude/settings.local.json

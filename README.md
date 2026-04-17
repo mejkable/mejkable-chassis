@@ -75,6 +75,16 @@ The chassis is harness-agnostic. It uses the `AGENTS.md` convention (supported b
 
 Configure which AI service handles which task in `config/PROVIDERS.md`. Prompts in the chassis stay provider-agnostic.
 
+## Recommended tools
+
+The chassis is plain markdown, so any editor works. A few that suit it especially well:
+
+- **[Obsidian](https://obsidian.md)** — free for personal use. Opens the repo as a vault. Graph view and backlinks make the flow between phases and decisions visible. Canvas is useful for the messier early phases.
+- **[Typora](https://typora.io)** — paid, WYSIWYG. Excellent for drafting and reading individual phase files when you want the markdown rendered as you type.
+- **VS Code** or any editor with a markdown preview pane — works fine, no setup needed.
+
+The chassis uses standard markdown (relative links, no `[[wikilinks]]`) so files render correctly on GitHub and in every editor. Obsidian still derives backlinks from standard links.
+
 ## What this is good for
 
 - Physical consumer products (electronics, home goods, personal care, lifestyle)
