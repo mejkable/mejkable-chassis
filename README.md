@@ -1,6 +1,19 @@
+<br>
+
 <p align="center">
   <img src=".github/assets/logo.svg" alt="Mejkable" height="96">
 </p>
+
+<h1 align="center">mejkable</h1>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/mejkable/mejkable-chassis?style=flat-square" alt="License"></a>
+  <img src="https://img.shields.io/github/v/tag/mejkable/mejkable-chassis?label=version&style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/status-alpha-orange?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/template-repo-blue?style=flat-square" alt="Template">
+</p>
+
+<br>
 
 # Mejkable Chassis
 
