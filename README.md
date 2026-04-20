@@ -1,5 +1,3 @@
-<br>
-
 <p align="center">
   <img src=".github/assets/logo.svg" alt="Mejkable" height="96">
 </p>
@@ -15,9 +13,11 @@
   <img src="https://img.shields.io/badge/template-repo-blue?style=flat-square" alt="Template">
 </p>
 
-<br>
+<p align="center">
+  <sub><b>Alpha.</b> Phases, sub-tasks and conventions may shift between releases. See <code>CHANGELOG.md</code> and <code>ROADMAP.md</code>.</sub>
+</p>
 
-> **Alpha.** Phases, sub-tasks, and conventions may shift between releases. Pin a tag for stability. See `CHANGELOG.md` and `ROADMAP.md`.
+<br><br>
 
 # Mejkable Chassis
 
