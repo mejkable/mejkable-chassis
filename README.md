@@ -1,9 +1,11 @@
+<br>
+
 <p align="center">
   <img src=".github/assets/logo.svg" alt="Mejkable" height="96">
 </p>
 
 <p align="center">
-  <img src=".github/assets/wordmark.svg" alt="mejkable" height="72">
+  <img src=".github/assets/wordmark.svg" alt="mejkable" height="52">
 </p>
 
 <p align="center">
@@ -17,7 +19,7 @@
   <sub><b>Alpha.</b> Phases, sub-tasks and conventions may shift between releases. See <code>CHANGELOG.md</code> and <code>ROADMAP.md</code>.</sub>
 </p>
 
-<br><br>
+<br>
 
 # Mejkable Chassis
 
