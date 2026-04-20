@@ -1,6 +1,12 @@
+<p align="center">
+  <img src=".github/assets/logo.svg" alt="Mejkable" height="96">
+</p>
+
 # Mejkable Chassis
 
 **An agentic product development chassis for physical products.**
+
+> **Early release.** The chassis is usable today but actively evolving. Phases may be reordered, merged, or split, sub-tasks may be added, removed, or reworded, file roles and conventions may shift between releases. Pin a tag if you need stability, and expect to backport improvements when upgrading. See `CHANGELOG.md` for what's changed and `ROADMAP.md` for what's proposed next.
 
 A markdown-based framework that guides hardware and manufactured goods from opportunity discovery through post-launch iteration, using AI agents at every stage. Built for solopreneurs, lean teams, and anyone who wants structure without a SaaS.
 
