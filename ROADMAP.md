@@ -138,6 +138,97 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
   7. YAML frontmatter on `PROJECT.md` and each phase's `BRIEF.md` with `phase`, `status`, `updated` fields
 - **Constraint:** Do not use `[[wikilinks]]`, they render literally on GitHub.
 
+### Operating policy block: data integrity, ask-vs-proceed, scope discipline
+- **Source:** direct (harness comparison review against Lovable, Replit Agent and gpt-engineer, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit Agent's prompt carries named Data Integrity and Proactiveness policies; Lovable's carries explicit scope rules ("don't do more than what the user asks for"). The chassis has none. Its prompts ask for market sizes, competitor price points, COGS ranges, regulatory standards, supplier landscapes and funding benchmarks, and the strongest guard is "flag where you're uncertain or estimating". Nothing forbids inventing a standard number, a competitor, a tariff rate or a citation, and nothing says when an agent should ask versus proceed. For hardware, a fabricated EN or UL reference or an unsourced COGS figure flows through `HANDOVER.md` into Phase 03 requirements and Phase 07 quotes.
+- **Impact:** Add an "Operating Policy" section to `library/templates/AGENTS.project-starter.md` with three rules: (1) data integrity, every number, standard, supplier or competitor is tagged Verified (source given), Estimated (method given) or Unknown, and citations are never invented; (2) ask-vs-proceed, ask before changing a recorded decision, marking a phase complete or committing money, proceed on drafting, research and synthesis; (3) scope, run only the selected sub-task, do not widen. Echo a one-line pointer in the Agent Context of every `PROMPT.md`.
+- **Priority:** High
+- **Status:** proposed
+- **Affected files:** `library/templates/AGENTS.project-starter.md`, `phases/**/PROMPT.md` (Agent Context section)
+
+### Clarify-before-run preamble in every PROMPT.md
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** gpt-engineer's `clarify` preprompt made the agent read the instructions without carrying them out, list unclear areas as short bullets, ask one question and wait. Lovable defaults to discussion unless the user uses an action word. The chassis prompts say "flag your assumptions" but never instruct the agent to pause before producing, so an agent pointed at `PROMPT.md` runs the sub-task on whatever it assumes. A market scan run on a misunderstood category is a wasted session.
+- **Impact:** Add a standard "Before you run a sub-task" block under "How to Use This Prompt" in each `PROMPT.md`: list what is unclear in at most five bullets; if any item would materially change the output, ask one question and wait; otherwise state assumptions at the top of the output and proceed.
+- **Priority:** High
+- **Status:** proposed
+- **Affected files:** `phases/**/PROMPT.md`
+
+### Critique sub-task per phase, run as a fresh session in a named sceptical role
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit separates a verifier agent from the editor agents; gpt-engineer's `respec` step re-read the spec as a sceptical senior engineer and listed assumptions explicitly. In the chassis the agent that ran the sub-tasks also writes `HANDOVER.md`, and the synthesis prompts ask it to rate its own confidence. Nothing checks the producer.
+- **Impact:** Add a **Critique** sub-task to the Core menu of every `BRIEF.md` and a matching prompt in `PROMPT.md`: a fresh session reads the draft HANDOVER and the BRIEF's done criteria in a named sceptical role appropriate to the phase (investor for 00, user researcher for 01–02, DFM engineer for 05, QA manager for 07, launch lead for 08) and returns gaps, unsupported claims and its own confidence rating. Disagreements between producer and critic are recorded in `DECISIONS.md`.
+- **Priority:** High
+- **Status:** proposed
+- **Affected files:** `phases/**/BRIEF.md`, `phases/**/PROMPT.md`
+
+### Phase Plan sub-task; record sub-task selection in WORKBOOK, not BRIEF
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** `BRIEF.md` carries `- [ ]` checkboxes and says "select the sub-tasks relevant to your project", and each `PROMPT.md` tells the agent to read the BRIEF "for selected sub-tasks". But Non-Negotiable #1 in the project starter forbids editing `BRIEF.md` in a live project, so the selection is either recorded nowhere or recorded by breaking a rule. Lovable and Replit avoid this because plan approval is a first-class step (Plan mode, approve, Build mode).
+- **Impact:** Add a **Phase Plan** prompt at the top of every `PROMPT.md`: the agent reads the previous HANDOVER, `PROJECT.md` and the BRIEF, proposes which sub-tasks to run and why, and the user approves. The approved list is written to a new `## Phase Plan` section at the top of every `WORKBOOK.md`. In `BRIEF.md`, either drop the checkboxes or add a note that selection is recorded in WORKBOOK.
+- **Priority:** High
+- **Status:** proposed
+- **Affected files:** `phases/**/PROMPT.md`, `phases/**/WORKBOOK.md`, `phases/**/BRIEF.md`, `library/templates/AGENTS.project-starter.md` (step 4 of "Starting or resuming a session")
+- **Note:** Composes with the "working-format signal" and "progressive disclosure" entries above, which touch the same BRIEF/PROMPT pairs. Batch all PROMPT/BRIEF edits in one pass.
+
+### Dual-form placeholders (read the file, or paste)
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Every `PROMPT.md` opens with "Before beginning, read `../../PROJECT.md`" (an agent with file access) and then every sub-task uses `[USER INSERTS PROBLEM STATEMENT FROM PHASE 01]` (a human pasting into a chat window). Lovable's Agent mode and Replit's `replit.md` both moved to the agent reading context itself. Inside Claude Code, Codex or Cursor the placeholders are wasted work and a drift source, because the pasted text is a lossy copy of the HANDOVER.
+- **Impact:** Rewrite each placeholder as `[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 — read it, or paste here if you have no file access]`. Prompts stay usable in a chat window and become harness-native.
+- **Priority:** Medium
+- **Status:** proposed
+- **Affected files:** `phases/**/PROMPT.md`
+
+### Fixed output footer for sub-task results
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Lovable specifies exactly what surrounds a code block; Replit's `report_progress` tool specifies the summary format down to the glyphs. The chassis says "capture the output in WORKBOOK.md under clear headings" and stops, so every sub-task output has a different shape and HANDOVER synthesis is a re-reading exercise.
+- **Impact:** Define a standard footer in `config/CONVENTIONS.md` that every sub-task output ends with: **Sources & confidence**, **Assumptions made**, **Open questions**, **Candidate decisions**. Reference it from the Output Capture section of each `PROMPT.md`. Handover synthesis becomes mechanical and the Critique sub-task has something concrete to check.
+- **Priority:** Medium
+- **Status:** proposed
+- **Affected files:** `config/CONVENTIONS.md`, `phases/**/PROMPT.md` (Output Capture section)
+
+### Append-only and revisiting rules
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit's prompt carries explicit never-without-the-user rules after its July 2025 incident, where the agent deleted a production database during a declared code freeze. The chassis has no equivalent: nothing stops an agent rewriting a completed phase's `HANDOVER.md`, editing a past `DECISIONS.md` entry, or resetting the `PROJECT.md` status tracker.
+- **Impact:** Add three non-negotiables to the project starter and a matching note in `config/CONVENTIONS.md`: `DECISIONS.md` and `journal/LOG.md` are append-only (supersede with a new entry, never edit); a `complete` phase's HANDOVER is only touched after its status is set to `revisiting` and the reason is logged; never change another phase's files while working in the current one.
+- **Priority:** Medium
+- **Status:** proposed
+- **Affected files:** `library/templates/AGENTS.project-starter.md`, `config/CONVENTIONS.md`
+
+### Session-close ritual and one-screen PROJECT.md
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit's `replit.md` is generated and updated by the agent as it learns, and kept short; Lovable persists project Knowledge across sessions. The chassis has the same file (`PROJECT.md` plus `journal/LOG.md`) but only tells the agent to update it on phase completion. The "fresh-scaffold marker" entry above is a symptom of the same gap.
+- **Impact:** Add a "Closing a session" step to the project starter: update `PROJECT.md` Running Notes with anything the next session must know, append a dated entry to `journal/LOG.md`, commit. State that `PROJECT.md` stays under one screen and WORKBOOK is the file that grows.
+- **Priority:** Medium
+- **Status:** proposed
+- **Affected files:** `library/templates/AGENTS.project-starter.md`, `PROJECT.md`
+
+### Worked example artefacts for Phases 00–01
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Lovable's leaked prompt teaches behaviour mainly through worked user/assistant example pairs; gpt-engineer's file-format preprompts carried examples. The chassis has zero filled-in artefacts. Every WORKBOOK, DECISIONS and HANDOVER is a blank template, and agents imitate what they see.
+- **Impact:** Add `library/templates/examples/` with one fictional product carried through Phases 00 and 01: a filled WORKBOOK, DECISIONS and HANDOVER for each. Reference the examples from the project starter. Must be clearly fictional so it is never mistaken for live-project content.
+- **Priority:** Medium
+- **Status:** proposed
+- **Affected files:** new `library/templates/examples/`, `library/templates/AGENTS.project-starter.md`, `AGENTS.md` (repo structure listing)
+
+### Fixed retrospective scorecard
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** gpt-engineer's `human_review` asked the same three questions after every run (did it run, did it do everything, did it do anything useful) so learnings were comparable across projects. The "After a Project Completes" section of `WORKFLOW.md` is a freeform list of questions, so retrospectives from different projects cannot be compared.
+- **Impact:** Replace the freeform questions with a per-phase scorecard table: for each sub-task, used / skipped; output quality 1–3; prompt edited yes/no; and for the phase, handover sufficient for the next phase yes/no. Add the same table as an optional block in the `CHASSIS-NOTES.md` template.
+- **Priority:** Low
+- **Status:** proposed
+- **Affected files:** `WORKFLOW.md`, `CHASSIS-NOTES.md`
+
 ---
 
 ## v0.3
