@@ -26,7 +26,7 @@ This is the **blank, reusable chassis**. It contains:
 - PROJECT.md (blank template)
 - config/ (CONVENTIONS.md, PROVIDERS.md as templates)
 - All phase folders with BRIEF.md, PROMPT.md, WORKBOOK.md, DECISIONS.md, HANDOVER.md
-- library/ (empty, with placeholder structure)
+- library/ (empty apart from a README per subfolder giving the naming and structure convention, plus the two project-starter files in templates/)
 - journal/LOG.md (blank template)
 - This file (WORKFLOW.md)
 

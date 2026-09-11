@@ -127,6 +127,7 @@ Some files are a record, not a draft. Agents and users alike follow these rules:
 - Core files: UPPERCASE.md (`BRIEF.md`, `PROMPT.md`, etc.)
 - Supporting files: lowercase, hyphenated (`market-sizing-notes.md`, `competitor-matrix.md`)
 - Assets: descriptive, lowercase, hyphenated (`desk-lamp-concept-sketch-01.png`)
+- Library material: folder structure, date prefixes and link-back pattern are in the `README.md` of each `library/` subfolder
 
 ---
 

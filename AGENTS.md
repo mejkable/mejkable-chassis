@@ -42,10 +42,12 @@ mejkable-chassis/
 ├── phases/
 │   └── NN-phase-name/                     ← BRIEF, PROMPT, WORKBOOK, DECISIONS, HANDOVER
 ├── library/
-│   ├── research/
-│   ├── assets/
+│   ├── research/README.md                 ← Naming and structure convention for inputs
+│   ├── assets/README.md                   ← Same, for visual and binary material
 │   └── templates/
-│       └── AGENTS.project-starter.md      ← Becomes AGENTS.md in a live project
+│       ├── README.md
+│       ├── AGENTS.project-starter.md      ← Becomes AGENTS.md in a live project
+│       └── README.project-starter.md      ← Becomes README.md in a live project
 └── journal/
     └── LOG.md
 ```
