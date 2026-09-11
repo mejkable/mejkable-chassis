@@ -1,8 +1,12 @@
 # PROJECT.md
 
+> **Status: not-yet-initialised.** This project has been scaffolded but not set up. Fill in the sections below before starting phase work, then delete this line.
+
 ## About This Project
 
 This file is the single source of truth for your project's identity, vision, constraints, and phase progress. Fill it in after scaffolding from [Mejkable Chassis](https://mejkable.com), the agentic product development framework this repo was built from.
+
+Keep it under one screen. It is the map of the project, not the record of it: detail lives in each phase's `WORKBOOK.md`, history in `journal/LOG.md`. Update Running Notes at the end of every session.
 
 The chassis is product-agnostic but optimised for physical hardware and manufactured goods. It guides projects through 10 phases from opportunity discovery to post-launch iteration.
 
@@ -71,5 +75,5 @@ Not every project starts at Phase 0. Record where this project enters the chassi
 
 ## Running Notes
 
-[Anything that doesn't fit elsewhere. Cross-phase observations, pivots, key learnings.]
+[What the next session must know to pick up where the last one stopped: open threads, items waiting on someone, half-made decisions. Cross-phase observations and pivots go here too. Keep it short; when it grows, move the detail into the current phase's `WORKBOOK.md` and leave a pointer.]
 

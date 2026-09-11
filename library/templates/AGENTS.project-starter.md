@@ -32,6 +32,14 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 6. Log every meaningful choice in `DECISIONS.md` (format in `config/CONVENTIONS.md`)
 7. On phase completion, write `HANDOVER.md`, update `PROJECT.md`, commit
 
+### Closing a session
+Do this at the end of every working session, not only at phase completion:
+1. Update Running Notes in `PROJECT.md` with anything the next session must know to pick up where you stopped (open threads, waiting-on items, a decision that is half-made)
+2. Append a dated entry to `journal/LOG.md`
+3. Commit
+
+`PROJECT.md` stays under one screen. It is the map, not the record: `WORKBOOK.md` is the file that grows, and `journal/LOG.md` holds the history. When Running Notes fill up, move the detail into the current phase's `WORKBOOK.md` and keep only the pointer.
+
 ### Single sources of truth
 - `config/CONVENTIONS.md`, file roles, decision format, handover format, status values, naming, confidence ratings
 - `config/PROVIDERS.md`, which AI service handles which task type (prompts themselves stay provider-agnostic)
