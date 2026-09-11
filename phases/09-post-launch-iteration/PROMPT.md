@@ -56,7 +56,7 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 Here are my product metrics for [TIME PERIOD]:
 
-[USER INSERTS SALES DATA, TRAFFIC DATA, CONVERSION DATA, AD PERFORMANCE, ETC.]
+[USER PROVIDES: sales, traffic, conversion and ad performance data — paste here, or point me to the files under library/research/; targets are in ../08-launch-preparation/HANDOVER.md § Launch Metrics & Targets]
 
 Help me analyse:
 
@@ -75,7 +75,7 @@ Help me analyse:
 ```
 Here is customer feedback from [SOURCES]:
 
-[USER PASTES REVIEWS, EMAILS, SOCIAL MEDIA COMMENTS, SUPPORT TICKETS, SURVEY RESPONSES]
+[USER PROVIDES: reviews, emails, social media comments, support tickets, survey responses — paste here, or point me to the files under library/research/]
 
 Synthesise:
 
@@ -94,7 +94,7 @@ Synthesise:
 ```
 These issues have been reported:
 
-[USER INSERTS LIST OF ISSUES — defects, complaints, problems]
+[FROM ./WORKBOOK.md § Issue Log — read it, or paste here if you have no file access]
 
 Help me triage:
 
@@ -120,10 +120,10 @@ Classify issues:
 ```
 Based on everything we've learned post-launch:
 
-Sales data: [USER INSERTS SUMMARY]
-Customer feedback: [USER INSERTS KEY THEMES]
-Competitive developments: [USER INSERTS ANY CHANGES]
-Team learnings: [USER INSERTS WHAT THE TEAM HAS LEARNED]
+Sales data: [FROM ./WORKBOOK.md § Performance Tracking — read it, or paste here if you have no file access]
+Customer feedback: [FROM ./WORKBOOK.md § Customer Feedback Log — read it, or paste here if you have no file access]
+Competitive developments: [USER PROVIDES: any competitor moves since launch]
+Team learnings: [FROM ../../journal/LOG.md and ./WORKBOOK.md § Periodic Reviews — read them, or paste here if you have no file access]
 
 Help me plan the next iteration:
 
@@ -142,7 +142,7 @@ Help me plan the next iteration:
 ```
 Here's my current marketing performance:
 
-[USER INSERTS AD DATA, SOCIAL METRICS, EMAIL METRICS, ORGANIC TRAFFIC DATA]
+[USER PROVIDES: ad, social, email and organic traffic data — paste here, or point me to the files under library/research/]
 
 Help me optimise:
 
@@ -168,7 +168,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 It's time for a periodic review. Here's the current state:
 
-[USER INSERTS PERFORMANCE DATA, FEEDBACK SUMMARY, INVENTORY STATUS, MARKETING RESULTS]
+[FROM ./WORKBOOK.md § Performance Tracking, § Customer Feedback Log, § Inventory Tracker and § Marketing Performance — read them, or paste here if you have no file access]
 
 Create a state-of-the-product report:
 

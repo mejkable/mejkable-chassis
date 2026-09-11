@@ -56,11 +56,11 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 I need to evaluate and select manufacturers for this product:
 
-Product: [USER INSERTS DESCRIPTION AND KEY MANUFACTURING REQUIREMENTS]
-BOM: [USER INSERTS OR SUMMARISES]
-Volume: [USER INSERTS INITIAL AND ANNUAL VOLUME ESTIMATES]
+Product: [FROM ../06-prototyping-validation/HANDOVER.md § Inputs for Phase 07 — read it, or paste here if you have no file access]
+BOM: [FROM ../05-design-development/WORKBOOK.md § Bill of Materials (BOM) — read it, or paste here if you have no file access]
+Volume: [USER PROVIDES: initial and annual volume estimates]
 Location preference: [Domestic / Overseas / No preference]
-Budget: [USER INSERTS TOOLING AND UNIT COST TARGETS]
+Budget: [FROM ../05-design-development/HANDOVER.md § Cost Position — read it, or paste here if you have no file access]
 
 Help me:
 
@@ -83,9 +83,9 @@ Help me:
 ```
 I'm preparing for a DFM (Design for Manufacturing) review with my manufacturer:
 
-Design: [USER INSERTS DESIGN DESCRIPTION, KEY FEATURES, MATERIALS]
-Manufacturing process: [USER INSERTS — e.g., injection moulding, PCB assembly, offset print]
-Known concerns: [USER INSERTS ANY AREAS THEY'RE UNSURE ABOUT]
+Design: [FROM ../06-prototyping-validation/HANDOVER.md § Final Design Status — read it, or paste here if you have no file access]
+Manufacturing process: [USER PROVIDES: e.g. injection moulding, PCB assembly, offset print]
+Known concerns: [FROM ../06-prototyping-validation/HANDOVER.md § Key Learnings and § Open Questions — read them, or paste here if you have no file access]
 
 Help me prepare:
 
@@ -105,10 +105,10 @@ After the DFM review, help me evaluate proposed changes:
 ```
 I need a quality plan for manufacturing this product:
 
-Product: [USER INSERTS DESCRIPTION]
-Key quality requirements: [USER INSERTS FROM REQUIREMENTS — critical dimensions, visual standards, functional requirements]
-Manufacturing process: [USER INSERTS]
-Volume: [USER INSERTS]
+Product: [FROM ../06-prototyping-validation/HANDOVER.md § Inputs for Phase 07 — read it, or paste here if you have no file access]
+Key quality requirements: [FROM ../03-product-definition/HANDOVER.md § Prioritised Requirements and § Target Specification Summary — read them, or paste here if you have no file access]
+Manufacturing process: [USER PROVIDES: the selected process]
+Volume: [USER PROVIDES: order quantity]
 
 Help me develop:
 
@@ -130,10 +130,10 @@ Help me develop:
 ```
 Help me build a comprehensive landed cost model:
 
-BOM: [USER INSERTS FINAL BOM WITH UNIT COSTS]
-Manufacturing cost: [USER INSERTS QUOTED MANUFACTURING PRICE]
-Tooling: [USER INSERTS TOOLING COSTS AND EXPECTED LIFE]
-Volume: [USER INSERTS ORDER QUANTITY]
+BOM: [FROM ../05-design-development/WORKBOOK.md § Bill of Materials (BOM) — read it, or paste here if you have no file access]
+Manufacturing cost: [FROM ./WORKBOOK.md § Supplier Evaluation, the selected quote — read it, or paste here if you have no file access]
+Tooling: [FROM ./WORKBOOK.md § Supplier Evaluation, the tooling quote — read it, or paste here if you have no file access]
+Volume: [USER PROVIDES: order quantity]
 
 Calculate:
 
@@ -165,9 +165,9 @@ Then analyse:
 ```
 Help me build a production timeline for:
 
-Product: [USER INSERTS DESCRIPTION]
-Target launch date: [USER INSERTS OR "help me determine"]
-Key milestones known: [USER INSERTS — e.g., tooling already ordered]
+Product: [FROM ../06-prototyping-validation/HANDOVER.md § Inputs for Phase 07 — read it, or paste here if you have no file access]
+Target launch date: [USER PROVIDES: target launch date, or "help me determine"]
+Key milestones known: [USER PROVIDES: e.g. tooling already ordered]
 
 Map the timeline:
 
@@ -190,18 +190,18 @@ Work backwards from launch date to determine when each step must begin.
 ```
 I need to fund production for this product:
 
-Total capital required:
-- Tooling: [USER INSERTS]
-- First production run: [USER INSERTS]
-- Packaging: [USER INSERTS]
-- Certification/testing: [USER INSERTS]
-- Freight & logistics: [USER INSERTS]
-- Buffer/contingency: [USER INSERTS]
-- **Total:** [USER INSERTS]
+Total capital required (FROM ./WORKBOOK.md § Production Costing — read it, or fill in below if you have no file access):
+- Tooling:
+- First production run:
+- Packaging:
+- Certification/testing:
+- Freight & logistics:
+- Buffer/contingency:
+- **Total:**
 
-Funding path chosen: [USER INSERTS — crowdfunding, angel, PO financing, supplier terms, bootstrap, etc.]
-Production timeline: [USER INSERTS KEY DATES]
-Cash available now: [USER INSERTS]
+Funding path chosen: [FROM ../00-opportunity-discovery/DECISIONS.md or ../02-research-insight/DECISIONS.md, the funding path decision — read it, or paste here if you have no file access]
+Production timeline: [FROM ./WORKBOOK.md § Production Timeline — read it, or paste here if you have no file access]
+Cash available now: [USER PROVIDES: cash available now]
 
 Help me build a funding execution plan:
 
@@ -238,7 +238,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 Production development is complete. Here are the key outputs:
 
-[USER PASTES SUPPLIER INFO, COSTS, TIMELINE, QUALITY PLAN]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Synthesise into a HANDOVER for Phase 08 (Launch Preparation). Include:
 1. Production status and readiness

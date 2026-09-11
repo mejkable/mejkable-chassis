@@ -56,8 +56,8 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 I need a detailed competitive analysis for this product space:
 
-Product: [USER INSERTS DESCRIPTION]
-Known competitors from Phase 01: [USER INSERTS LIST]
+Product: [FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 — read it, or paste here if you have no file access]
+Known competitors from Phase 01: [FROM ../01-problem-definition/HANDOVER.md § Key Findings, current alternatives — read it, or paste here if you have no file access]
 
 For each key competitor (top 5-8), analyse:
 1. **Product details** — what they sell, key features, materials, quality level
@@ -82,8 +82,8 @@ Use publicly available information. Flag where data is estimated.
 ```
 I need to gather and synthesise user insights for this product:
 
-Product: [USER INSERTS DESCRIPTION]
-Target user: [USER INSERTS USER PROFILE FROM PHASE 01]
+Product: [FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 — read it, or paste here if you have no file access]
+Target user: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
 
 Research the following sources for user insights:
 1. **Customer reviews** of competing products — what do people love and hate?
@@ -105,9 +105,9 @@ Synthesise into:
 ```
 Help me size the market for this product:
 
-Product: [USER INSERTS DESCRIPTION]
-Target segment: [USER INSERTS FROM PHASE 01]
-Geography: [USER INSERTS TARGET MARKETS]
+Product: [FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 — read it, or paste here if you have no file access]
+Target segment: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
+Geography: [USER PROVIDES: target markets]
 
 Provide:
 1. **TAM** (Total Addressable Market) — the entire market for this category
@@ -125,7 +125,7 @@ Use ranges, not false precision. Flag confidence levels for each estimate.
 ```
 Here are the top unvalidated assumptions from our Problem Definition phase:
 
-[USER PASTES ASSUMPTION INVENTORY FROM PHASE 01]
+[FROM ../01-problem-definition/WORKBOOK.md § Assumption Inventory — read it, or paste here if you have no file access]
 
 For each assumption:
 1. What evidence have we gathered (from this phase's research) that validates or invalidates it?
@@ -141,7 +141,7 @@ Summarise: Which assumptions have we de-risked? Which remain dangerous? What doe
 ```
 For this physical product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND KEY FUNCTIONAL REQUIREMENTS]
+[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 and § Constraints Established — read them, or paste here if you have no file access]
 
 Scan available materials and technologies:
 
@@ -160,7 +160,7 @@ Organise as a comparison matrix where possible. Flag trade-offs between cost, qu
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION, MATERIALS UNDER CONSIDERATION, ESTIMATED VOLUMES]
+[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 and ./WORKBOOK.md § Materials & Technology Scan — read them, or paste here if you have no file access; add estimated volumes]
 
 Explore feasible manufacturing methods:
 
@@ -179,7 +179,7 @@ Include rough cost ranges where possible. Flag the key decisions that need to be
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND TARGET MARKETS]
+[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 — read it, or paste here if you have no file access; add target markets]
 
 Research regulatory and compliance requirements:
 
@@ -199,7 +199,7 @@ Flag any requirements that could significantly impact design, cost, or timeline.
 ```
 For this product category:
 
-[USER INSERTS PRODUCT DESCRIPTION AND POSITIONING]
+[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 and ./WORKBOOK.md § Competitive Deep-Dive — read them, or paste here if you have no file access]
 
 Research distribution channels:
 
@@ -222,7 +222,7 @@ For each viable channel:
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION, POSITIONING, AND COMPETITIVE LANDSCAPE]
+[FROM ./WORKBOOK.md § Competitive Deep-Dive and ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 — read them, or paste here if you have no file access]
 
 Research pricing dynamics:
 
@@ -242,11 +242,11 @@ Cross-reference with unit economics napkin math from Phase 00. Does the target p
 ```
 I'm preparing to seek funding for this product. Here's what I have so far:
 
-Market sizing: [USER INSERTS FROM MARKET SIZING SUB-TASK]
-Competitive landscape: [USER INSERTS KEY FINDINGS]
-Unit economics: [USER INSERTS FROM PHASE 00 OR PRICING RESEARCH]
-Target customer: [USER INSERTS FROM PHASE 01]
-Funding path chosen: [USER INSERTS — angel, VC, crowdfunding, grant, etc.]
+Market sizing: [FROM ./WORKBOOK.md § Market Sizing & Segmentation — read it, or paste here if you have no file access]
+Competitive landscape: [FROM ./WORKBOOK.md § Competitive Deep-Dive — read it, or paste here if you have no file access]
+Unit economics: [FROM ./WORKBOOK.md § Pricing & Willingness-to-Pay Research, or ../00-opportunity-discovery/WORKBOOK.md § Unit Economics Napkin Math — read it, or paste here if you have no file access]
+Target customer: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
+Funding path chosen: [FROM ../00-opportunity-discovery/DECISIONS.md, the funding path decision — read it, or paste here if you have no file access]
 
 Help me build the investment case:
 
@@ -281,7 +281,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 I've completed the Research & Insight phase. Here are my key outputs:
 
-[USER PASTES KEY FINDINGS FROM WORKBOOK]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Synthesise into a HANDOVER for Phase 03 (Product Definition). I need:
 

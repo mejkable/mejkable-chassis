@@ -57,7 +57,7 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 I have an idea for a physical product. Here's what I'm thinking:
 
-[USER INSERTS DESCRIPTION]
+[USER PROVIDES: the idea in your own words, or FROM ../../PROJECT.md § Product Vision if it is already filled in]
 
 Help me articulate this opportunity clearly. I need:
 1. A one-paragraph opportunity statement — what is the product, who is it for, and why does it matter
@@ -73,7 +73,7 @@ Keep it direct. Don't pad or flatter — I need honest assessment.
 ```
 I'm evaluating an opportunity in the following space:
 
-[USER INSERTS OPPORTUNITY STATEMENT OR DESCRIPTION]
+[FROM ./WORKBOOK.md § Opportunity Framing — read it, or paste here if you have no file access]
 
 Conduct a first-pass market scan. I need:
 1. Market overview — is this an existing category or a new one? Estimated size if possible.
@@ -90,7 +90,7 @@ Focus on publicly available information. Flag where you're uncertain or estimati
 ```
 For this product opportunity:
 
-[USER INSERTS OPPORTUNITY STATEMENT]
+[FROM ./WORKBOOK.md § Opportunity Framing — read it, or paste here if you have no file access]
 
 Create a first-pass customer sketch. I need:
 1. Primary customer segment — who is most likely to buy this? Demographics, psychographics, buying behaviour.
@@ -107,9 +107,9 @@ This is a rough sketch, not a research report. Flag your assumptions.
 ```
 I'm evaluating whether I/we are the right team for this opportunity.
 
-The opportunity: [USER INSERTS DESCRIPTION]
+The opportunity: [FROM ./WORKBOOK.md § Opportunity Framing — read it, or paste here if you have no file access]
 
-My/our background and capabilities: [USER INSERTS RELEVANT EXPERIENCE, SKILLS, RESOURCES]
+My/our background and capabilities: [USER PROVIDES: relevant experience, skills and resources]
 
 Help me assess:
 1. What advantages do I/we have in pursuing this?
@@ -123,7 +123,7 @@ Help me assess:
 ```
 For this product opportunity:
 
-[USER INSERTS DESCRIPTION]
+[FROM ./WORKBOOK.md § Opportunity Framing — read it, or paste here if you have no file access]
 
 Analyse timing and trends:
 1. What cultural, technological, or market trends support this now?
@@ -137,7 +137,7 @@ Analyse timing and trends:
 ```
 I need a very rough first-pass on unit economics for this product:
 
-[USER INSERTS PRODUCT DESCRIPTION, ANY KNOWN COST DATA]
+[FROM ./WORKBOOK.md § Opportunity Framing and § Initial Market Scan — read them, or paste here if you have no file access; add any known cost data]
 
 Help me estimate:
 1. Likely COGS range (materials, manufacturing, packaging) — use comparable products as benchmarks if specific data isn't available
@@ -155,7 +155,7 @@ This is napkin math. Use ranges, not false precision. Flag all assumptions.
 ```
 Evaluate the key risks for this product opportunity:
 
-[USER INSERTS DESCRIPTION AND ANY CONTEXT FROM OTHER SUB-TASKS]
+[FROM ./WORKBOOK.md, every sub-task run so far — read it, or paste here if you have no file access]
 
 Identify:
 1. Technical risks — can this actually be built/manufactured?
@@ -173,10 +173,10 @@ Rate each as High / Medium / Low impact and likelihood. Focus on the ones that m
 ```
 I'm evaluating how to fund this product opportunity:
 
-Product opportunity: [USER INSERTS DESCRIPTION]
-Estimated capital requirements: [USER INSERTS — rough range from unit economics, or "unknown"]
-Available personal/team resources: [USER INSERTS — savings, revenue from existing business, available investment]
-Timeline: [USER INSERTS — how fast does this need to move?]
+Product opportunity: [FROM ./WORKBOOK.md § Opportunity Framing — read it, or paste here if you have no file access]
+Estimated capital requirements: [FROM ./WORKBOOK.md § Unit Economics Napkin Math — read it, or paste here if you have no file access; "unknown" if not run]
+Available personal/team resources: [USER PROVIDES: savings, revenue from an existing business, available investment]
+Timeline: [USER PROVIDES: how fast this needs to move]
 
 Help me assess funding options:
 

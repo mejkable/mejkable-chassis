@@ -56,7 +56,7 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 Based on the following opportunity context:
 
-[USER INSERTS PHASE 00 HANDOVER OR OPPORTUNITY DESCRIPTION]
+[FROM ../00-opportunity-discovery/HANDOVER.md § Inputs for Phase 01 — read it, or paste here if you have no file access]
 
 Help me draft a clear problem statement. Use this structure:
 
@@ -79,8 +79,8 @@ Finally, challenge the statement:
 ```
 I'm developing a physical product and need to understand my target user better.
 
-The product opportunity: [USER INSERTS DESCRIPTION]
-What I know so far about the user: [USER INSERTS PHASE 00 CUSTOMER SKETCH OR CURRENT KNOWLEDGE]
+The product opportunity: [FROM ../00-opportunity-discovery/HANDOVER.md § Inputs for Phase 01 — read it, or paste here if you have no file access]
+What I know so far about the user: [FROM ../00-opportunity-discovery/HANDOVER.md § Key Findings, the customer sketch — read it, or paste here if you have no file access]
 
 Help me build a deeper user profile:
 
@@ -99,8 +99,8 @@ Flag where you're making assumptions vs. working from data.
 ```
 For this product and user:
 
-Product: [USER INSERTS DESCRIPTION]
-Target user: [USER INSERTS USER PROFILE OR SUMMARY]
+Product: [FROM ../00-opportunity-discovery/HANDOVER.md § Inputs for Phase 01 — read it, or paste here if you have no file access]
+Target user: [FROM ./WORKBOOK.md § User/Customer Deep-Dive — read it, or paste here if you have no file access]
 
 Map the jobs-to-be-done:
 
@@ -122,7 +122,7 @@ Identify the top 2-3 jobs the product must nail.
 ```
 For this problem space:
 
-[USER INSERTS PROBLEM STATEMENT OR DESCRIPTION]
+[FROM ./WORKBOOK.md § Problem Statement — read it, or paste here if you have no file access]
 
 Map the competitive alternatives landscape:
 
@@ -146,7 +146,7 @@ Identify the gap — what's the unmet need that existing alternatives don't cove
 ```
 Based on everything we've developed so far in this project:
 
-[USER INSERTS RELEVANT CONTEXT — PROBLEM STATEMENT, USER PROFILE, JTBD, ALTERNATIVES]
+[FROM ./WORKBOOK.md, every sub-task run so far — read it, or paste here if you have no file access]
 
 Create an assumption inventory. List every assumption embedded in our thinking, then categorise each:
 
@@ -169,7 +169,7 @@ Flag the top 5 assumptions that are both high-risk and unvalidated. These become
 ```
 For this physical product:
 
-[USER INSERTS PRODUCT AND USER DESCRIPTION]
+[FROM ./WORKBOOK.md § Problem Statement and § User/Customer Deep-Dive — read them, or paste here if you have no file access]
 
 Map the use context in detail:
 
@@ -189,7 +189,7 @@ Identify any context factors that should become hard design constraints.
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND TARGET USER]
+[FROM ./WORKBOOK.md § Problem Statement and § User/Customer Deep-Dive — read them, or paste here if you have no file access]
 
 Map all stakeholders beyond the end user:
 
@@ -209,7 +209,7 @@ For each stakeholder: what do they need, and what power do they have over the pr
 ```
 For this product and user:
 
-[USER INSERTS PRODUCT AND USER DESCRIPTION]
+[FROM ./WORKBOOK.md § Problem Statement and § User/Customer Deep-Dive — read them, or paste here if you have no file access]
 
 Explore the emotional and aspirational layer:
 
@@ -228,7 +228,7 @@ How should these emotional dimensions influence design decisions?
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION]
+[FROM ./WORKBOOK.md § Problem Statement — read it, or paste here if you have no file access]
 
 Assess the gift and occasion potential:
 
@@ -257,7 +257,7 @@ Run this after completing the sub-tasks above to prepare the HANDOVER.
 ```
 I've completed the Problem Definition phase. Here are my outputs:
 
-[USER PASTES KEY OUTPUTS FROM WORKBOOK]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Help me synthesise this into a HANDOVER for the next phase (Research & Insight). I need:
 

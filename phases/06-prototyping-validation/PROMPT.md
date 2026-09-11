@@ -57,10 +57,10 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 I'm ready to build prototypes for this product:
 
-Design: [USER INSERTS DESIGN SUMMARY AND KEY SPECS]
-Prototype roadmap: [USER INSERTS FROM PHASE 05]
-Budget: [USER INSERTS AVAILABLE BUDGET]
-Timeline: [USER INSERTS TARGET TIMELINE]
+Design: [FROM ../05-design-development/HANDOVER.md § Design Summary — read it, or paste here if you have no file access]
+Prototype roadmap: [FROM ../05-design-development/HANDOVER.md § Inputs for Phase 06 — read it, or paste here if you have no file access]
+Budget: [USER PROVIDES: available budget]
+Timeline: [USER PROVIDES: target timeline]
 
 Help me create a detailed prototype build plan:
 
@@ -84,10 +84,10 @@ Help me create a detailed prototype build plan:
 ```
 I need to plan user testing for this product:
 
-Product: [USER INSERTS DESCRIPTION]
-Target user: [USER INSERTS FROM PHASE 01]
-Prototype available: [USER DESCRIBES WHAT THE PROTOTYPE IS AND ITS FIDELITY]
-Key questions to answer: [USER INSERTS — from prototype roadmap]
+Product: [FROM ../05-design-development/HANDOVER.md § Design Summary — read it, or paste here if you have no file access]
+Target user: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
+Prototype available: [FROM ./WORKBOOK.md § Prototype Build Log — read it, or paste here if you have no file access]
+Key questions to answer: [FROM ../05-design-development/HANDOVER.md § Inputs for Phase 06 — read it, or paste here if you have no file access]
 
 Help me create a user testing plan:
 
@@ -110,7 +110,7 @@ Help me create a user testing plan:
 ```
 I've completed prototype testing. Here are the raw results:
 
-[USER PASTES TEST DATA, OBSERVATIONS, USER FEEDBACK]
+[USER PROVIDES: test data, observations and user feedback — paste here, or point me to the files under library/research/]
 
 Help me analyse:
 
@@ -129,7 +129,7 @@ Help me analyse:
 ```
 Based on prototype testing, these design changes are proposed:
 
-[USER INSERTS PROPOSED CHANGES]
+[FROM ./WORKBOOK.md § Functional Test Results and § User Testing, the design change recommendations — read them, or paste here if you have no file access]
 
 Help me evaluate and track each change:
 
@@ -149,7 +149,7 @@ For approved changes:
 ```
 We're preparing to freeze the design for production. Current state:
 
-[USER INSERTS CURRENT DESIGN STATUS AND ANY OUTSTANDING ITEMS]
+[FROM ./WORKBOOK.md § Design Iterations — read it, or paste here if you have no file access; add anything still outstanding]
 
 Run through a design freeze checklist:
 
@@ -180,7 +180,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 Prototyping and validation is complete. Here are the key results:
 
-[USER PASTES TEST RESULTS, ITERATION HISTORY, FREEZE CHECKLIST STATUS]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Synthesise into a HANDOVER for Phase 07 (Production Development). Include:
 1. Validation summary — what was tested and confirmed

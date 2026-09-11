@@ -21,6 +21,7 @@
 - Add an Output Capture section to every `phases/**/PROMPT.md` pointing at the Sub-Task Output Footer in `config/CONVENTIONS.md`
 - Add a Phase Plan prompt at the top of every `phases/**/PROMPT.md` (agent proposes sub-tasks from the BRIEF menu, user approves, agreed list goes under Phase Plan in WORKBOOK.md); Agent Context read lists now point at that section; session step 4 in `library/templates/AGENTS.project-starter.md` and Daily Workflow step 5 in `WORKFLOW.md` follow suit
 - Add a Critique prompt to every `phases/**/PROMPT.md`: a fresh session in a named sceptical role per phase (investor, user researcher, product manager, design director, DFM engineer, validation engineer, QA manager, launch lead, head of operations) reviews the draft handover against the done criteria and returns gaps, unsupported claims and its own confidence rating
+- Rewrite every input placeholder in `phases/**/PROMPT.md` in dual form: `[FROM <file> § <section> — read it, or paste here if you have no file access]` pointing at the HANDOVER, WORKBOOK, PROJECT or DECISIONS file the input actually lives in, and `[USER PROVIDES: …]` for inputs that have no file source
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

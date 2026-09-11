@@ -57,12 +57,12 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 Help me set pricing for this product:
 
-Product: [USER INSERTS DESCRIPTION]
-Landed COGS: [USER INSERTS FROM PHASE 07]
-Target channels: [USER INSERTS — DTC, retail, Amazon, etc.]
-Competitive price landscape: [USER INSERTS FROM PHASE 02]
+Product: [FROM ../07-production-development/HANDOVER.md § Inputs for Phase 08 — read it, or paste here if you have no file access]
+Landed COGS: [FROM ../07-production-development/HANDOVER.md § Final Cost Position — read it, or paste here if you have no file access]
+Target channels: [FROM ../02-research-insight/HANDOVER.md § Channel & Pricing Framework — read it, or paste here if you have no file access; update if the channel choice has changed since]
+Competitive price landscape: [FROM ../02-research-insight/WORKBOOK.md § Pricing Research — read it, or paste here if you have no file access]
 Positioning: [Premium / Mid-market / Value]
-Target customer: [USER INSERTS FROM PHASE 01]
+Target customer: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
 
 Develop:
 
@@ -82,12 +82,12 @@ Develop:
 ```
 Help me develop core messaging for this product:
 
-Product: [USER INSERTS DESCRIPTION]
-Target user: [USER INSERTS FROM PHASE 01]
-Jobs-to-be-done: [USER INSERTS TOP 3 FROM PHASE 01]
-Competitive positioning: [USER INSERTS FROM PHASE 02]
-Brand personality: [USER INSERTS FROM PHASE 03]
-Emotional dimension: [USER INSERTS FROM PHASE 01]
+Product: [FROM ../07-production-development/HANDOVER.md § Inputs for Phase 08 — read it, or paste here if you have no file access]
+Target user: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
+Jobs-to-be-done: [FROM ../01-problem-definition/HANDOVER.md § Priority Jobs-to-be-Done — read it, or paste here if you have no file access]
+Competitive positioning: [FROM ../02-research-insight/HANDOVER.md § Competitive Positioning Opportunity — read it, or paste here if you have no file access]
+Brand personality: [FROM ../03-product-definition/HANDOVER.md § Design Principles & Brand Requirements — read it, or paste here if you have no file access]
+Emotional dimension: [FROM ../01-problem-definition/WORKBOOK.md § Emotional/Aspirational Dimension — read it, or paste here if you have no file access]
 
 Develop:
 
@@ -105,11 +105,11 @@ Develop:
 ```
 Help me create a launch plan:
 
-Product: [USER INSERTS DESCRIPTION]
-Product availability date: [USER INSERTS FROM PHASE 07]
-Channels: [USER INSERTS SELECTED CHANNELS]
-Budget: [USER INSERTS MARKETING/LAUNCH BUDGET]
-Team size: [USER INSERTS — likely solo or very small]
+Product: [FROM ../07-production-development/HANDOVER.md § Inputs for Phase 08 — read it, or paste here if you have no file access]
+Product availability date: [FROM ../07-production-development/HANDOVER.md § Production Timeline — read it, or paste here if you have no file access]
+Channels: [FROM ./WORKBOOK.md § Channel Setup — read it, or paste here if you have no file access]
+Budget: [USER PROVIDES: marketing and launch budget]
+Team size: [USER PROVIDES: team size, likely solo or very small]
 
 Build a launch timeline covering:
 
@@ -141,9 +141,9 @@ Build a launch timeline covering:
 ```
 Help me plan the e-commerce presence for:
 
-Product: [USER INSERTS DESCRIPTION]
+Product: [FROM ../07-production-development/HANDOVER.md § Inputs for Phase 08 — read it, or paste here if you have no file access]
 Primary platform: [Shopify / Own site / Amazon / Other]
-Budget: [USER INSERTS]
+Budget: [USER PROVIDES: budget]
 
 Define:
 
@@ -161,9 +161,9 @@ Define:
 ```
 I'm preparing to sell this product through retail channels:
 
-Product: [USER INSERTS DESCRIPTION AND RETAIL PRICE]
-Target retailers: [USER INSERTS — specific stores or types]
-Margin structure: [USER INSERTS]
+Product: [FROM ../07-production-development/HANDOVER.md § Inputs for Phase 08 and ./WORKBOOK.md § Pricing Strategy — read them, or paste here if you have no file access]
+Target retailers: [FROM ../02-research-insight/WORKBOOK.md § Channel & Distribution — read it, or paste here if you have no file access]
+Margin structure: [FROM ./WORKBOOK.md § Pricing Strategy — read it, or paste here if you have no file access]
 
 Help me create:
 
@@ -179,9 +179,9 @@ Help me create:
 ```
 I have external funders/investors and need to keep them informed as we approach launch:
 
-Funding type: [USER INSERTS — angel, VC, crowdfunding backers, grant body]
-What was promised: [USER INSERTS — milestones, timeline, deliverables committed to]
-Current status: [USER INSERTS — what's on track, what's changed]
+Funding type: [FROM ../07-production-development/WORKBOOK.md § Production Funding Execution — read it, or paste here if you have no file access]
+What was promised: [USER PROVIDES: milestones, timeline and deliverables committed to]
+Current status: [FROM ../../PROJECT.md § Phase Status Tracker and ../07-production-development/HANDOVER.md § Production Timeline — read them, or paste here if you have no file access]
 
 Help me:
 
@@ -212,7 +212,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 Launch preparation is complete. Here are the key outputs:
 
-[USER PASTES PRICING, MESSAGING, LAUNCH PLAN, CHANNEL SETUP STATUS]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Synthesise into a HANDOVER for Phase 09 (Post-Launch & Iteration). Include:
 1. Launch readiness summary

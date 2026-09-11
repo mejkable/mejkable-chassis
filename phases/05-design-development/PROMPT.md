@@ -57,9 +57,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 For this product design:
 
-[USER INSERTS DESIGN DESCRIPTION AND KEY COMPONENTS]
-Requirements: [USER INSERTS RELEVANT REQUIREMENTS — durability, safety, cost, feel, appearance]
-Manufacturing method: [USER INSERTS EXPECTED MANUFACTURING APPROACH]
+[FROM ../04-concept-development/HANDOVER.md § Selected Concept — read it, or paste here if you have no file access]
+Requirements: [FROM ../03-product-definition/HANDOVER.md § Prioritised Requirements — read it, or paste here if you have no file access]
+Manufacturing method: [FROM ../02-research-insight/HANDOVER.md § Technical / Manufacturing Feasibility — read it, or paste here if you have no file access]
 
 Help me specify materials for each component:
 
@@ -81,7 +81,7 @@ For each recommendation, address:
 ```
 For this product:
 
-[USER INSERTS DESIGN WITH COMPONENT LIST]
+[FROM ./WORKBOOK.md § Detailed Design — read it, or paste here if you have no file access]
 
 Plan the assembly:
 
@@ -101,8 +101,8 @@ Flag any assembly steps that are high-risk, slow, or require special skills/equi
 ```
 Here is the current design and the requirements it must meet:
 
-Design: [USER INSERTS DESIGN DESCRIPTION OR SPECIFICATION]
-Requirements: [USER INSERTS FULL REQUIREMENTS LIST FROM PHASE 03]
+Design: [FROM ./WORKBOOK.md § Detailed Design — read it, or paste here if you have no file access]
+Requirements: [FROM ../03-product-definition/WORKBOOK.md § Requirements Definition — read it, or paste here if you have no file access]
 
 Conduct a systematic design review:
 
@@ -122,7 +122,7 @@ Identify:
 ```
 For this product at its current design stage:
 
-[USER INSERTS DESIGN DESCRIPTION AND KEY UNKNOWNS]
+[FROM ./WORKBOOK.md § Detailed Design and § Requirements Compliance Review — read them, or paste here if you have no file access; add the key unknowns]
 
 Help me plan a prototyping roadmap:
 
@@ -146,7 +146,7 @@ Help me plan a prototyping roadmap:
 ```
 For this product:
 
-[USER INSERTS DESIGN AND BRAND DIRECTION]
+[FROM ./WORKBOOK.md § Detailed Design and ../03-product-definition/HANDOVER.md § Design Principles & Brand Requirements — read them, or paste here if you have no file access]
 
 Develop the CMF specification:
 
@@ -166,7 +166,7 @@ Present as a CMF board/specification that could be shared with a manufacturer.
 ```
 Based on the current design:
 
-[USER INSERTS BOM, MATERIALS, MANUFACTURING METHOD, ESTIMATED VOLUMES]
+[FROM ./WORKBOOK.md § Bill of Materials (BOM) and § Material Specifications — read them, or paste here if you have no file access; add manufacturing method and estimated volumes]
 
 Build a detailed cost estimate:
 
@@ -201,7 +201,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 Design development is complete. Here are the key outputs:
 
-[USER PASTES KEY SPECIFICATIONS, BOM, COST ESTIMATE, PROTOTYPE PLAN]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Synthesise into a HANDOVER for Phase 06 (Prototyping & Validation). Include:
 1. Design summary and key specifications

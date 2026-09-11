@@ -57,11 +57,11 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 Based on the following project context:
 
-Problem statement: [FROM PHASE 01]
-User profile: [FROM PHASE 01]
-Key research findings: [FROM PHASE 02]
-Technical feasibility: [FROM PHASE 02]
-Regulatory requirements: [FROM PHASE 02]
+Problem statement: [FROM ../01-problem-definition/HANDOVER.md § Problem Statement — read it, or paste here if you have no file access]
+User profile: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
+Key research findings: [FROM ../02-research-insight/HANDOVER.md § Key Findings — read it, or paste here if you have no file access]
+Technical feasibility: [FROM ../02-research-insight/HANDOVER.md § Technical / Manufacturing Feasibility — read it, or paste here if you have no file access]
+Regulatory requirements: [FROM ../02-research-insight/HANDOVER.md § Regulatory Constraints — read it, or paste here if you have no file access]
 
 Help me define product requirements in three categories:
 
@@ -85,7 +85,7 @@ For each requirement, note:
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND USER PROFILE]
+[FROM ../02-research-insight/HANDOVER.md § Inputs for Phase 03 and ../01-problem-definition/HANDOVER.md § Target User Summary — read them, or paste here if you have no file access]
 
 Map the complete user experience journey:
 
@@ -109,10 +109,10 @@ For each stage, identify:
 ```
 For this product, help me set measurable target specifications:
 
-Product: [USER INSERTS DESCRIPTION]
-Requirements: [USER INSERTS KEY REQUIREMENTS FROM ABOVE]
-Competitive benchmarks: [USER INSERTS FROM PHASE 02]
-Cost constraints: [USER INSERTS TARGET COGS AND PRICE]
+Product: [FROM ../02-research-insight/HANDOVER.md § Inputs for Phase 03 — read it, or paste here if you have no file access]
+Requirements: [FROM ./WORKBOOK.md § Requirements Definition — read it, or paste here if you have no file access]
+Competitive benchmarks: [FROM ../02-research-insight/WORKBOOK.md § Competitive Deep-Dive — read it, or paste here if you have no file access]
+Cost constraints: [FROM ../02-research-insight/HANDOVER.md § Channel & Pricing Framework — read it, or paste here if you have no file access]
 
 Create a target specification table:
 
@@ -134,7 +134,7 @@ Include categories relevant to this product type:
 ```
 Here are the requirements we've defined for this product:
 
-[USER INSERTS REQUIREMENTS LIST]
+[FROM ./WORKBOOK.md § Requirements Definition — read it, or paste here if you have no file access]
 
 Help me prioritise using MoSCoW:
 
@@ -154,7 +154,7 @@ For each requirement, justify the priority level. Identify:
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND BRAND CONTEXT]
+[FROM ../02-research-insight/HANDOVER.md § Inputs for Phase 03 and ../../PROJECT.md § Product Vision — read them, or paste here if you have no file access; add any existing brand context]
 
 Define the brand and identity requirements:
 
@@ -173,7 +173,7 @@ These become constraints and guardrails for concept development.
 ```
 For this electronic/technical product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND FUNCTIONAL REQUIREMENTS]
+[FROM ./WORKBOOK.md § Requirements Definition — read it, or paste here if you have no file access]
 
 Help me define the technical specification:
 
@@ -194,7 +194,7 @@ Flag decisions that need to be made vs. specifications that are already determin
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND MARKET POSITIONING]
+[FROM ../02-research-insight/HANDOVER.md § Inputs for Phase 03 and § Competitive Positioning Opportunity — read them, or paste here if you have no file access]
 
 Help me think through SKU and variant strategy:
 
@@ -220,7 +220,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 I've completed the Product Definition phase. Here are the key outputs:
 
-[USER PASTES REQUIREMENTS, SPECS, PRIORITIES, AND OTHER KEY OUTPUTS]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Synthesise into a HANDOVER for Phase 04 (Concept Development). I need:
 

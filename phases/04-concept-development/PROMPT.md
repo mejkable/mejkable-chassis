@@ -56,10 +56,10 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 ```
 I need to generate multiple distinct product concepts for:
 
-Product definition: [USER INSERTS FROM PHASE 03]
-Key requirements: [USER INSERTS MUST-HAVES AND TOP SHOULD-HAVES]
-Design principles: [USER INSERTS FROM PHASE 03]
-Known constraints: [USER INSERTS — cost, size, manufacturing, regulatory]
+Product definition: [FROM ../03-product-definition/HANDOVER.md § Product Definition Summary — read it, or paste here if you have no file access]
+Key requirements: [FROM ../03-product-definition/HANDOVER.md § Prioritised Requirements — read it, or paste here if you have no file access]
+Design principles: [FROM ../03-product-definition/HANDOVER.md § Design Principles & Brand Requirements — read it, or paste here if you have no file access]
+Known constraints: [FROM ../03-product-definition/HANDOVER.md § Constraints Established — read it, or paste here if you have no file access]
 
 Generate 4-5 distinct concepts. For each concept:
 1. **Concept name** — a short, evocative label
@@ -78,10 +78,10 @@ The concepts should be meaningfully different — different approaches to the sa
 ```
 I need to evaluate these concepts against our product requirements:
 
-Concepts: [USER INSERTS CONCEPT DESCRIPTIONS]
+Concepts: [FROM ./WORKBOOK.md § Concept Ideation — read it, or paste here if you have no file access]
 
 Evaluation criteria from product definition:
-[USER INSERTS CRITERIA — derived from Phase 03 requirements and priorities]
+[FROM ../03-product-definition/HANDOVER.md § Inputs for Phase 04, the evaluation criteria — read it, or paste here if you have no file access]
 
 Create an evaluation matrix:
 
@@ -103,9 +103,9 @@ Then provide:
 ```
 For this product concept:
 
-[USER INSERTS SELECTED CONCEPT OR CONCEPTS TO EXPLORE]
-Use context: [USER INSERTS FROM PHASE 01]
-Size/dimension constraints: [USER INSERTS FROM PHASE 03]
+Concept(s): [FROM ./WORKBOOK.md § Concept Ideation, the concept or concepts to explore — read it, or paste here if you have no file access]
+Use context: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary and § Constraints Established — read them, or paste here if you have no file access]
+Size/dimension constraints: [FROM ../03-product-definition/HANDOVER.md § Target Specification Summary — read it, or paste here if you have no file access]
 
 Explore form factor options:
 
@@ -124,7 +124,7 @@ Describe 3 form factor directions with rationale for each.
 ```
 For this product:
 
-[USER INSERTS PRODUCT DESCRIPTION AND BRAND REQUIREMENTS FROM PHASE 03]
+[FROM ../03-product-definition/HANDOVER.md § Product Definition Summary and § Design Principles & Brand Requirements — read them, or paste here if you have no file access]
 
 Explore graphic and visual design directions:
 
@@ -147,10 +147,10 @@ Note: if artwork/content is coming as input to the project, focus on packaging, 
 ```
 For this product:
 
-Product: [USER INSERTS DESCRIPTION]
-Retail/channel requirements: [USER INSERTS FROM PHASE 02/03]
-Brand requirements: [USER INSERTS FROM PHASE 03]
-Product dimensions (estimated): [USER INSERTS]
+Product: [FROM ../03-product-definition/HANDOVER.md § Product Definition Summary — read it, or paste here if you have no file access]
+Retail/channel requirements: [FROM ../02-research-insight/HANDOVER.md § Channel & Pricing Framework — read it, or paste here if you have no file access]
+Brand requirements: [FROM ../03-product-definition/HANDOVER.md § Design Principles & Brand Requirements — read it, or paste here if you have no file access]
+Product dimensions (estimated): [FROM ../03-product-definition/HANDOVER.md § Target Specification Summary — read it, or paste here if you have no file access]
 
 Develop packaging concepts:
 
@@ -178,7 +178,7 @@ Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-t
 ```
 I've completed concept development. Here are the concepts explored and evaluation results:
 
-[USER PASTES KEY OUTPUTS]
+[FROM ./WORKBOOK.md, every sub-task output and its footer — read it, or paste here if you have no file access]
 
 Synthesise into a HANDOVER for Phase 05 (Design Development). I need:
 
