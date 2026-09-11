@@ -99,6 +99,16 @@ Every HANDOVER.md follows this structure:
 
 ---
 
+## Append-Only and Revisiting Rules
+
+Some files are a record, not a draft. Agents and users alike follow these rules:
+
+- **`DECISIONS.md` and `journal/LOG.md` are append-only.** A decision that no longer holds is superseded by a new entry that names the one it replaces. Past entries are never edited or deleted.
+- **A `complete` phase's `HANDOVER.md` is frozen** until the phase's status in `PROJECT.md` is set to `revisiting` and the reason is logged in that phase's `DECISIONS.md`. Only then is the handover edited, and the phase is closed again with a fresh status and confidence.
+- **Work stays in the current phase.** Never change another phase's files while working in one. A finding that affects an earlier or later phase is noted in the current `WORKBOOK.md` and raised with the user, who decides whether to open a revisit.
+
+---
+
 ## Naming Conventions
 
 - Folders: lowercase, hyphenated, prefixed with phase number (`00-opportunity-discovery`)

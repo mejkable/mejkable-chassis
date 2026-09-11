@@ -3,6 +3,7 @@
 ## v0.2 — (unreleased)
 
 - Add an Operating Policy section (data integrity tags, ask-vs-proceed, scope discipline) to `library/templates/AGENTS.project-starter.md`
+- Add append-only and revisiting rules as Non-Negotiables 8–10 in `library/templates/AGENTS.project-starter.md` and a matching section in `config/CONVENTIONS.md`
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

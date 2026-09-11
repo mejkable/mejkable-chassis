@@ -51,6 +51,9 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 5. **External work counts too.** CAD sessions, supplier calls, workshop findings. Capture outcomes in the relevant `WORKBOOK.md` or `DECISIONS.md`. The chassis is a coordination tool, not a cage.
 6. **Don't put binary or design files in markdown.** Reference their location in `library/assets/` instead.
 7. **Don't treat confidence ratings as pass/fail.** "Low" is useful signal, not failure.
+8. **`DECISIONS.md` and `journal/LOG.md` are append-only.** Supersede a past entry with a new one that references it. Never edit or delete what is already there.
+9. **A `complete` phase's `HANDOVER.md` is only touched after its status is set to `revisiting`** in `PROJECT.md` and the reason is logged in that phase's `DECISIONS.md`.
+10. **Never change another phase's files while working in the current one.** If a finding affects an earlier or later phase, note it in the current `WORKBOOK.md` and raise it with the user.
 
 ## Git Workflow
 
