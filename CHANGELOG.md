@@ -12,6 +12,7 @@
 - Add scaffold steps to `WORKFLOW.md` for replacing `README.md` and `LICENSE`; ship a minimal `library/templates/README.project-starter.md` that points at `PROJECT.md`; note the check in the starter's scaffold comment in `library/templates/AGENTS.project-starter.md`
 - Add `library/research/README.md`, `library/assets/README.md` and `library/templates/README.md` with the folder structure, naming and link-back conventions, replacing the `.gitkeep` files; list them in the `AGENTS.md` repo tree and point at them from Naming Conventions in `config/CONVENTIONS.md`
 - Add a Major backport subsection to `WORKFLOW.md` with explicit preserve, safe-to-overwrite and merge-by-hand lists for whole-chassis version jumps
+- Define the fixed Sub-Task Output Footer (Sources & confidence, Assumptions made, Open questions, Candidate decisions) in `config/CONVENTIONS.md`
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

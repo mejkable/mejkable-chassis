@@ -80,6 +80,28 @@ Decisions in DECISIONS.md follow this structure:
 
 ---
 
+## Sub-Task Output Footer
+
+Every sub-task output captured in `WORKBOOK.md` ends with the same four headings, in this order, even when a heading has nothing under it (write "None" rather than dropping it). The fixed shape is what makes handover synthesis mechanical and gives the Critique sub-task something concrete to check.
+
+```
+#### Sources & confidence
+[Each source used, with what it supports. Each figure or claim tagged Verified (source), Estimated (method) or Unknown. One overall confidence rating for the output: High / Medium / Low.]
+
+#### Assumptions made
+[What was taken as given to produce this output, and what would change if an assumption is wrong.]
+
+#### Open questions
+[What this sub-task could not resolve and who or what could resolve it.]
+
+#### Candidate decisions
+[Choices this output puts on the table, phrased as options. Nothing here is decided until it is logged in DECISIONS.md.]
+```
+
+The footer is not a summary. The body of the output carries the findings; the footer carries what a reader needs to judge and act on them.
+
+---
+
 ## Handover Format
 
 Every HANDOVER.md follows this structure:
