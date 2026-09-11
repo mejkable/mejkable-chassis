@@ -53,6 +53,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Supplier Selection & Evaluation
 
+**Best format:** Solo with agent for the framework, then Primary research (RFQs to 3–5 suppliers)
+**Solo fallback quality:** Medium — scorecards and RFQ templates are solid; supplier quality is only visible through quotes, samples and calls.
+
 ```
 I need to evaluate and select manufacturers for this product:
 
@@ -80,6 +83,9 @@ Help me:
 
 ### DFM Review Preparation
 
+**Best format:** Solo with expert review (the manufacturer's engineer)
+**Solo fallback quality:** Medium — the checklist prepares you well; the review itself is theirs.
+
 ```
 I'm preparing for a DFM (Design for Manufacturing) review with my manufacturer:
 
@@ -101,6 +107,9 @@ After the DFM review, help me evaluate proposed changes:
 ```
 
 ### Quality Plan Development
+
+**Best format:** Solo with expert review (QC or sourcing specialist)
+**Solo fallback quality:** Medium — AQL levels and inspection structure are standard; defect definitions for your product need someone who has inspected similar ones.
 
 ```
 I need a quality plan for manufacturing this product:
@@ -126,6 +135,9 @@ Help me develop:
 ```
 
 ### Production Costing
+
+**Best format:** Solo with agent, over real quotes
+**Solo fallback quality:** High — the model is mechanical; every input must be a quote, not an estimate, or the output inherits the Estimated tag.
 
 ```
 Help me build a comprehensive landed cost model:
@@ -162,6 +174,9 @@ Then analyse:
 
 ### Production Timeline
 
+**Best format:** Solo with agent, checked against supplier-confirmed lead times
+**Solo fallback quality:** Medium — the structure is standard; every duration is Estimated until a supplier confirms it.
+
 ```
 Help me build a production timeline for:
 
@@ -186,6 +201,9 @@ Work backwards from launch date to determine when each step must begin.
 ```
 
 ### Production Funding Execution
+
+**Best format:** Solo with expert review (someone who has run a campaign or closed a round)
+**Solo fallback quality:** Medium — the plan structure is sound; execution details and realistic targets need experience.
 
 ```
 I need to fund production for this product:

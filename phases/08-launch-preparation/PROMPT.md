@@ -54,6 +54,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Pricing Strategy
 
+**Best format:** Solo with agent, then Solo with expert review (channel partner or retailer)
+**Solo fallback quality:** Medium — margin maths is exact; price acceptance is a hypothesis until sales data.
+
 ```
 Help me set pricing for this product:
 
@@ -79,6 +82,9 @@ Develop:
 
 ### Brand Messaging & Positioning
 
+**Best format:** Workshop (2–4 people), or Solo with expert review (copywriter)
+**Solo fallback quality:** Medium — solo output is competent and generic; a distinct voice comes from iteration with people who know the user.
+
 ```
 Help me develop core messaging for this product:
 
@@ -101,6 +107,9 @@ Develop:
 ```
 
 ### Launch Plan
+
+**Best format:** Solo with agent
+**Solo fallback quality:** High — a planning task; scrutinise the resource reality check.
 
 ```
 Help me create a launch plan:
@@ -138,6 +147,9 @@ Build a launch timeline covering:
 
 ### E-Commerce Setup
 
+**Best format:** Solo with agent, plus External tool (the platform itself)
+**Solo fallback quality:** High — checklist and copy drafts suit the agent; photography and platform configuration happen elsewhere.
+
 ```
 Help me plan the e-commerce presence for:
 
@@ -158,6 +170,9 @@ Define:
 
 ### Retail Sales Preparation
 
+**Best format:** Solo with expert review (a sales rep or retail buyer)
+**Solo fallback quality:** Medium — sell sheets and checklists are standard; buyer expectations vary by region and category.
+
 ```
 I'm preparing to sell this product through retail channels:
 
@@ -175,6 +190,9 @@ Help me create:
 ```
 
 ### Investor / Funder Communications
+
+**Best format:** Solo with agent
+**Solo fallback quality:** High — a drafting task; honesty about status is on the user.
 
 ```
 I have external funders/investors and need to keep them informed as we approach launch:

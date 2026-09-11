@@ -54,6 +54,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Prototype Build Planning
 
+**Best format:** Solo with agent
+**Solo fallback quality:** High — a planning task; vendor lead times and costs are Estimated until quoted.
+
 ```
 I'm ready to build prototypes for this product:
 
@@ -81,6 +84,9 @@ Help me create a detailed prototype build plan:
 
 ### User Testing Plan
 
+**Best format:** Solo with expert review (user researcher)
+**Solo fallback quality:** Medium — protocol design is well covered; recruiting, moderation and bias avoidance benefit from experience.
+
 ```
 I need to plan user testing for this product:
 
@@ -107,6 +113,9 @@ Help me create a user testing plan:
 
 ### Test Results Analysis
 
+**Best format:** Solo with agent, over real test data
+**Solo fallback quality:** High — analysis over the data you provide; the ceiling is set by how the tests were run, not by this step.
+
 ```
 I've completed prototype testing. Here are the raw results:
 
@@ -125,6 +134,9 @@ Help me analyse:
 ```
 
 ### Design Iteration Tracking
+
+**Best format:** Solo with agent
+**Solo fallback quality:** High — bookkeeping; the decision on each change still belongs to the user and DECISIONS.md.
 
 ```
 Based on prototype testing, these design changes are proposed:
@@ -145,6 +157,9 @@ For approved changes:
 ```
 
 ### Design Freeze Checklist
+
+**Best format:** Workshop (everyone who must sign off)
+**Solo fallback quality:** Medium — a solo run finds gaps; the freeze itself is a group decision and needs the people who will live with it.
 
 ```
 We're preparing to freeze the design for production. Current state:

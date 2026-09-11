@@ -53,6 +53,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Performance Analysis
 
+**Best format:** Solo with agent, over real data
+**Solo fallback quality:** High — analysis quality tracks data quality; point the agent at the data files rather than pasting summaries.
+
 ```
 Here are my product metrics for [TIME PERIOD]:
 
@@ -72,6 +75,9 @@ Help me analyse:
 
 ### Customer Feedback Synthesis
 
+**Best format:** Solo with agent over raw feedback, or External tool (research repository) at volume
+**Solo fallback quality:** High — theme extraction suits the agent; read the raw quotes yourself for tone.
+
 ```
 Here is customer feedback from [SOURCES]:
 
@@ -90,6 +96,9 @@ Synthesise:
 ```
 
 ### Issue Triage
+
+**Best format:** Solo with agent, with the manufacturer for root causes
+**Solo fallback quality:** Medium — classification is fast; root-cause hypotheses need the factory and a physical unit.
 
 ```
 These issues have been reported:
@@ -117,6 +126,9 @@ Classify issues:
 
 ### V2 / Iteration Planning
 
+**Best format:** Workshop (2–6 people)
+**Solo fallback quality:** Medium — solo synthesis is a good first draft; a version plan is a team commitment.
+
 ```
 Based on everything we've learned post-launch:
 
@@ -138,6 +150,9 @@ Help me plan the next iteration:
 ```
 
 ### Marketing Optimisation
+
+**Best format:** Solo with agent, over real metrics
+**Solo fallback quality:** Medium — the agent reads the data well; creative judgement and platform quirks still need a marketer's eye.
 
 ```
 Here's my current marketing performance:

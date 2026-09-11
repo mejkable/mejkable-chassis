@@ -53,6 +53,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Competitive Deep-Dive
 
+**Best format:** Solo with agent
+**Solo fallback quality:** High — public information, reviews and listings; buy the top two competitors if you can.
+
 ```
 I need a detailed competitive analysis for this product space:
 
@@ -79,6 +82,9 @@ Use publicly available information. Flag where data is estimated.
 
 ### User Research Synthesis
 
+**Best format:** Primary research (8–12 interviews, or a survey)
+**Solo fallback quality:** Low — synthesis of reviews and forums reads stated complaints only; unstated needs and willingness to pay need conversations.
+
 ```
 I need to gather and synthesise user insights for this product:
 
@@ -102,6 +108,9 @@ Synthesise into:
 
 ### Market Sizing & Segmentation
 
+**Best format:** Solo with agent
+**Solo fallback quality:** Medium — top-down numbers are Estimated by construction; a bottom-up check against real channel data raises it.
+
 ```
 Help me size the market for this product:
 
@@ -122,6 +131,9 @@ Use ranges, not false precision. Flag confidence levels for each estimate.
 
 ### Assumption Validation Tracker
 
+**Best format:** Solo with agent
+**Solo fallback quality:** High — bookkeeping over evidence gathered elsewhere; quality depends on that evidence, not on this step.
+
 ```
 Here are the top unvalidated assumptions from our Problem Definition phase:
 
@@ -137,6 +149,9 @@ Summarise: Which assumptions have we de-risked? Which remain dangerous? What doe
 ```
 
 ### Materials & Technology Scan
+
+**Best format:** Solo with expert review (materials engineer or supplier)
+**Solo fallback quality:** Medium — the agent maps the option space well and misses current availability, pricing and processing quirks.
 
 ```
 For this physical product:
@@ -157,6 +172,9 @@ Organise as a comparison matrix where possible. Flag trade-offs between cost, qu
 
 ### Manufacturing Method Exploration
 
+**Best format:** Solo with expert review (a manufacturer or contract engineer)
+**Solo fallback quality:** Medium — process trade-offs are textbook, tooling costs and volume thresholds are not; one factory conversation recalibrates them.
+
 ```
 For this product:
 
@@ -175,6 +193,9 @@ Include rough cost ranges where possible. Flag the key decisions that need to be
 ```
 
 ### Regulatory & Compliance Research
+
+**Best format:** Solo with expert review (test lab or compliance consultant)
+**Solo fallback quality:** Medium — the agent names the likely standards; only a lab confirms which apply and what testing costs. Tag every standard Estimated until confirmed.
 
 ```
 For this product:
@@ -195,6 +216,9 @@ Flag any requirements that could significantly impact design, cost, or timeline.
 ```
 
 ### Channel & Distribution Research
+
+**Best format:** Solo with agent, then Primary research (2–3 buyer or distributor conversations)
+**Solo fallback quality:** Medium — margin structures are public, buyer requirements and timelines are not.
 
 ```
 For this product category:
@@ -219,6 +243,9 @@ For each viable channel:
 
 ### Pricing & Willingness-to-Pay Research
 
+**Best format:** Primary research (pricing survey or interviews)
+**Solo fallback quality:** Medium — competitor price mapping is solid; willingness to pay from desk research is a guess.
+
 ```
 For this product:
 
@@ -238,6 +265,9 @@ Cross-reference with unit economics napkin math from Phase 00. Does the target p
 ```
 
 ### Investment Case Development
+
+**Best format:** Solo with expert review (someone who has raised in this category)
+**Solo fallback quality:** Medium — the agent structures the case; an investor's read tells you which parts fail.
 
 ```
 I'm preparing to seek funding for this product. Here's what I have so far:

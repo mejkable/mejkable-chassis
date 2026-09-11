@@ -54,6 +54,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Requirements Definition
 
+**Best format:** Solo with agent, then review with whoever will design or make it
+**Solo fallback quality:** High — translating handovers into structured requirements suits the agent; the review catches what the handovers missed.
+
 ```
 Based on the following project context:
 
@@ -82,6 +85,9 @@ For each requirement, note:
 
 ### User Experience Definition
 
+**Best format:** Workshop (2–4 people), or Solo with agent
+**Solo fallback quality:** Medium — the journey structure is generic; the specific friction points need people who have watched users.
+
 ```
 For this product:
 
@@ -105,6 +111,9 @@ For each stage, identify:
 ```
 
 ### Target Specification
+
+**Best format:** Solo with expert review (engineer or manufacturer for the technical rows)
+**Solo fallback quality:** Medium — targets without a benchmark unit in hand are Estimated; measure competitors physically where you can.
 
 ```
 For this product, help me set measurable target specifications:
@@ -131,6 +140,9 @@ Include categories relevant to this product type:
 
 ### Prioritisation Framework
 
+**Best format:** Workshop (2–4 people)
+**Solo fallback quality:** Medium — MoSCoW alone is fast, but the arguments it is meant to surface need more than one voice.
+
 ```
 Here are the requirements we've defined for this product:
 
@@ -151,6 +163,9 @@ For each requirement, justify the priority level. Identify:
 
 ### Brand & Identity Requirements
 
+**Best format:** Workshop (2–4 people), or Solo with expert review (designer)
+**Solo fallback quality:** Medium — a solo pass produces plausible adjectives; a designer turns them into usable guardrails.
+
 ```
 For this product:
 
@@ -169,6 +184,9 @@ These become constraints and guardrails for concept development.
 ```
 
 ### Electronic/Technical Specification
+
+**Best format:** Solo with expert review (electronics engineer)
+**Solo fallback quality:** Low — the agent produces a credible outline; component choices, power budgets and safety requirements need an engineer before anything is ordered.
 
 ```
 For this electronic/technical product:
@@ -190,6 +208,9 @@ Flag decisions that need to be made vs. specifications that are already determin
 ```
 
 ### SKU & Variant Strategy
+
+**Best format:** Solo with agent
+**Solo fallback quality:** High — trade-off reasoning the agent handles well; check MOQ implications with a supplier before committing.
 
 ```
 For this product:

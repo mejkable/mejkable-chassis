@@ -54,6 +54,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Opportunity Framing
 
+**Best format:** Solo with agent
+**Solo fallback quality:** High — the founder's own framing is the input; little is lost.
+
 ```
 I have an idea for a physical product. Here's what I'm thinking:
 
@@ -69,6 +72,9 @@ Keep it direct. Don't pad or flatter — I need honest assessment.
 ```
 
 ### Initial Market Scan
+
+**Best format:** Solo with agent
+**Solo fallback quality:** Medium — desk figures only; sizes and shares stay Estimated until checked against a paid report or an industry contact.
 
 ```
 I'm evaluating an opportunity in the following space:
@@ -87,6 +93,9 @@ Focus on publicly available information. Flag where you're uncertain or estimati
 
 ### Target Customer Sketch
 
+**Best format:** Solo with agent
+**Solo fallback quality:** Medium — a sketch from inference, not from talking to anyone; upgrade it in Phases 01–02.
+
 ```
 For this product opportunity:
 
@@ -104,6 +113,9 @@ This is a rough sketch, not a research report. Flag your assumptions.
 
 ### Founder-Market Fit Check
 
+**Best format:** Solo with expert review (one candid advisor)
+**Solo fallback quality:** Medium — self-assessment flatters; an outside read catches the gaps you cannot see.
+
 ```
 I'm evaluating whether I/we are the right team for this opportunity.
 
@@ -120,6 +132,9 @@ Help me assess:
 
 ### Trend & Timing Analysis
 
+**Best format:** Solo with agent
+**Solo fallback quality:** Medium — trend evidence is patchy and dated; verify anything that drives a decision.
+
 ```
 For this product opportunity:
 
@@ -133,6 +148,9 @@ Analyse timing and trends:
 ```
 
 ### Unit Economics Napkin Math
+
+**Best format:** Solo with expert review (someone who has costed a similar product)
+**Solo fallback quality:** Medium — benchmark COGS are Estimated at best; one supplier quote changes everything.
 
 ```
 I need a very rough first-pass on unit economics for this product:
@@ -152,6 +170,9 @@ This is napkin math. Use ranges, not false precision. Flag all assumptions.
 
 ### Risk Flags
 
+**Best format:** Workshop (2–4 people)
+**Solo fallback quality:** Medium — a solo pass finds the obvious risks and misses the ones that need domain experience.
+
 ```
 Evaluate the key risks for this product opportunity:
 
@@ -169,6 +190,9 @@ Rate each as High / Medium / Low impact and likelihood. Focus on the ones that m
 ```
 
 ### Funding Path Assessment
+
+**Best format:** Solo with expert review (a founder who has raised or crowdfunded in this category)
+**Solo fallback quality:** Medium — the agent knows the options, not your local investor landscape.
 
 ```
 I'm evaluating how to fund this product opportunity:

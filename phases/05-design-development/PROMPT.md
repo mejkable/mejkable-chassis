@@ -54,6 +54,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Material Specification
 
+**Best format:** Solo with expert review (materials supplier or engineer)
+**Solo fallback quality:** Medium — the agent proposes candidates and trade-offs; grades, availability and pricing are Estimated until a supplier confirms.
+
 ```
 For this product design:
 
@@ -78,6 +81,9 @@ For each recommendation, address:
 
 ### Assembly & Construction Planning
 
+**Best format:** Solo with expert review (manufacturing engineer)
+**Solo fallback quality:** Medium — sequence and fastening options are sound; tolerance and fixture reality comes from someone who has assembled similar products.
+
 ```
 For this product:
 
@@ -97,6 +103,9 @@ Flag any assembly steps that are high-risk, slow, or require special skills/equi
 ```
 
 ### Design Review Against Requirements
+
+**Best format:** Solo with agent
+**Solo fallback quality:** High — systematic checking is what the agent does best; evidence quality depends on the design documentation.
 
 ```
 Here is the current design and the requirements it must meet:
@@ -118,6 +127,9 @@ Identify:
 ```
 
 ### Prototyping Strategy
+
+**Best format:** Solo with agent, reviewed by whoever will build the prototypes
+**Solo fallback quality:** High — roadmap logic suits the agent; lead times and costs are Estimated until quoted.
 
 ```
 For this product at its current design stage:
@@ -143,6 +155,9 @@ Help me plan a prototyping roadmap:
 
 ### CMF Specification (Colour, Material, Finish)
 
+**Best format:** Solo with expert review (CMF or industrial designer), with physical samples
+**Solo fallback quality:** Low — colour and finish cannot be specified from a description; get swatches and samples.
+
 ```
 For this product:
 
@@ -162,6 +177,9 @@ Present as a CMF board/specification that could be shared with a manufacturer.
 ```
 
 ### Cost Engineering
+
+**Best format:** Solo with agent, then Solo with expert review (supplier quotes)
+**Solo fallback quality:** Medium — structure and cost drivers are right; every unit cost is Estimated until quoted.
 
 ```
 Based on the current design:

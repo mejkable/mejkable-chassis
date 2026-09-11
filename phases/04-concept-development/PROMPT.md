@@ -53,6 +53,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Concept Ideation
 
+**Best format:** Workshop (3–6 people)
+**Solo fallback quality:** Medium — solo generation produces distinct concepts on paper; the range narrows without other minds and without sketching.
+
 ```
 I need to generate multiple distinct product concepts for:
 
@@ -74,6 +77,9 @@ The concepts should be meaningfully different — different approaches to the sa
 ```
 
 ### Concept Evaluation Matrix
+
+**Best format:** Solo with agent, scores reviewed by the team
+**Solo fallback quality:** High — the matrix is mechanical; contested scores are the point and belong in DECISIONS.md.
 
 ```
 I need to evaluate these concepts against our product requirements:
@@ -100,6 +106,9 @@ Then provide:
 
 ### Form Factor Exploration
 
+**Best format:** Solo with expert review (industrial designer), or External tool (sketches, foam or card mock-ups)
+**Solo fallback quality:** Low — form is physical; text and renders miss what a rough model shows in five minutes.
+
 ```
 For this product concept:
 
@@ -120,6 +129,9 @@ Describe 3 form factor directions with rationale for each.
 ```
 
 ### Graphic & Visual Design Concepts
+
+**Best format:** Solo with expert review (graphic designer), or External tool (image generation, mood boards)
+**Solo fallback quality:** Medium — directions in words are useful for briefing; they are not designs.
 
 ```
 For this product:
@@ -143,6 +155,9 @@ Note: if artwork/content is coming as input to the project, focus on packaging, 
 ```
 
 ### Packaging Concept Development
+
+**Best format:** Solo with agent, then Solo with expert review (packaging supplier)
+**Solo fallback quality:** Medium — structural options and cost tiers are well covered; dielines and real costs need a supplier.
 
 ```
 For this product:

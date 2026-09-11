@@ -53,6 +53,9 @@ Stop and wait for my approval. Once approved, write the agreed list under `## Ph
 
 ### Problem Statement Drafting
 
+**Best format:** Solo with agent
+**Solo fallback quality:** High — drafting is agent-shaped; the test comes in the deep-dive and in Phase 02.
+
 ```
 Based on the following opportunity context:
 
@@ -76,6 +79,9 @@ Finally, challenge the statement:
 
 ### User/Customer Deep-Dive
 
+**Best format:** Primary research (5–8 conversations)
+**Solo fallback quality:** Low — without talking to users this is a persona from inference; tag every trait Estimated.
+
 ```
 I'm developing a physical product and need to understand my target user better.
 
@@ -95,6 +101,9 @@ Flag where you're making assumptions vs. working from data.
 ```
 
 ### Jobs-to-be-Done Mapping
+
+**Best format:** Workshop (2–4 people), or Primary research (interviews)
+**Solo fallback quality:** Medium — solo mapping gets the functional jobs and tends to miss the emotional and social ones users do not volunteer.
 
 ```
 For this product and user:
@@ -118,6 +127,9 @@ Identify the top 2-3 jobs the product must nail.
 ```
 
 ### Current Alternatives Analysis
+
+**Best format:** Solo with agent
+**Solo fallback quality:** High — desk research does this well; add a hands-on trial of the top alternatives if you can.
 
 ```
 For this problem space:
@@ -143,6 +155,9 @@ Identify the gap — what's the unmet need that existing alternatives don't cove
 
 ### Assumption Inventory
 
+**Best format:** Workshop (2–4 people)
+**Solo fallback quality:** Medium — one person cannot see their own assumptions; a second reader roughly doubles the list.
+
 ```
 Based on everything we've developed so far in this project:
 
@@ -166,6 +181,9 @@ Flag the top 5 assumptions that are both high-risk and unvalidated. These become
 
 ### Use Context Mapping
 
+**Best format:** Primary research (observe 3–5 real settings)
+**Solo fallback quality:** Medium — inference from descriptions misses the physical detail that drives form and durability.
+
 ```
 For this physical product:
 
@@ -185,6 +203,9 @@ Identify any context factors that should become hard design constraints.
 ```
 
 ### Stakeholder Mapping
+
+**Best format:** Solo with agent
+**Solo fallback quality:** High — structured enumeration; check the retailer and regulator rows with a real contact.
 
 ```
 For this product:
@@ -206,6 +227,9 @@ For each stakeholder: what do they need, and what power do they have over the pr
 
 ### Emotional/Aspirational Dimension
 
+**Best format:** Primary research (interviews), or Workshop (2–4 people)
+**Solo fallback quality:** Low — emotion is exactly what desk work cannot read; solo output is hypothesis only.
+
 ```
 For this product and user:
 
@@ -224,6 +248,9 @@ How should these emotional dimensions influence design decisions?
 ```
 
 ### Gift & Occasion Mapping
+
+**Best format:** Solo with agent
+**Solo fallback quality:** Medium — category patterns are well documented; your product's gift split is a guess until sales data exists.
 
 ```
 For this product:
