@@ -173,7 +173,7 @@ Be realistic. Most hardware products are best served by bootstrapping or crowdfu
 
 ## Output Capture
 
-After running sub-tasks, capture the results in WORKBOOK.md under clear headings matching the sub-task names. When the phase is complete, synthesise the key findings into HANDOVER.md following the standard handover format from CONVENTIONS.md.
+Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-task name. Every output ends with the Sub-Task Output Footer defined in `config/CONVENTIONS.md`: **Sources & confidence**, **Assumptions made**, **Open questions**, **Candidate decisions**. Keep the four headings even when one is empty; the Critique prompt checks them and the handover synthesis reads from them. When the phase closes, synthesise the key findings into HANDOVER.md following the handover format in `config/CONVENTIONS.md`.
 
 ---
 

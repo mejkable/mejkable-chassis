@@ -221,6 +221,12 @@ How should gift/occasion dynamics influence packaging, pricing, and launch timin
 
 ---
 
+## Output Capture
+
+Capture each sub-task's output in WORKBOOK.md under a heading matching the sub-task name. Every output ends with the Sub-Task Output Footer defined in `config/CONVENTIONS.md`: **Sources & confidence**, **Assumptions made**, **Open questions**, **Candidate decisions**. Keep the four headings even when one is empty; the Critique prompt checks them and the synthesis prompt reads from them.
+
+---
+
 ## Synthesis Prompt
 
 Run this after completing the sub-tasks above to prepare the HANDOVER.

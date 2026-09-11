@@ -18,6 +18,7 @@
 - Align cross-file wording: `config/CONVENTIONS.md` file-roles table no longer says BRIEF and PROMPT take user customisation in a live project; the `WORKFLOW.md` CHASSIS-NOTES format block matches the shipped `CHASSIS-NOTES.md`; session-close step added to the Daily Workflow in `WORKFLOW.md`; starter session steps and single-sources list in `library/templates/AGENTS.project-starter.md` match the softened handover rule and the new CONVENTIONS sections
 - Echo a one-line Operating Policy pointer (Verified / Estimated / Unknown tags, ask-vs-proceed, scope) in the Agent Context of every `phases/**/PROMPT.md`
 - Add a Before you run a sub-task block (list unclear points, ask one question if material, otherwise state assumptions and proceed) under How to Use This Prompt in every `phases/**/PROMPT.md`, adding that section where it was missing
+- Add an Output Capture section to every `phases/**/PROMPT.md` pointing at the Sub-Task Output Footer in `config/CONVENTIONS.md`
 
 ## v0.1 — Initial Public Release (2026-04-17)
 
