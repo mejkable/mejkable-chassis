@@ -26,6 +26,18 @@ Every phase folder contains the same core files:
 
 ---
 
+## Phase Progression Patterns
+
+The phase sequence is a default, not a rule. Hardware work overlaps: a research tail runs while product definition starts, a prototype result sends you back to a decision made two phases ago, a project enters at Phase 03 with a design already in hand. Three patterns cover most of it. In each, the rule is the same: **a phase is closed with a `HANDOVER.md`, even an interim one.**
+
+**1. Parallel in-progress.** Two phases run at once, typically when the earlier one is waiting on an external input (supplier reply, test results, interviews still being scheduled). Write an interim `HANDOVER.md` for the earlier phase at Low or Medium confidence, stating what is outstanding and what would raise it, so the later phase has something to read. Mark both `in-progress` in `PROJECT.md`. When the outstanding input lands, update the handover and close the phase properly.
+
+**2. Revisit loop.** A later finding invalidates part of a `complete` phase. Set that phase's status to `revisiting` in `PROJECT.md`, log the reason and the triggering finding in its `DECISIONS.md`, then reopen its `HANDOVER.md` (see Append-Only and Revisiting Rules below). Close it again with a fresh status and confidence. Downstream phases that consumed the old handover get a note in their `WORKBOOK.md` saying what changed.
+
+**3. Skipped phase.** The work is already done outside the chassis, or the project's entry point is later than Phase 00. Set the status to `skipped` and record why in that phase's `DECISIONS.md`. Point the next phase at the pre-existing inputs listed in `PROJECT.md` under Entry Point; no handover is written for a skipped phase.
+
+---
+
 ## Confidence Rating
 
 Each phase handover includes a confidence rating:

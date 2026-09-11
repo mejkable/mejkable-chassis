@@ -59,6 +59,7 @@ Sub-tasks within each phase are a menu, not a checklist. Each project selects wh
 ## Key Conventions (canonical home: `config/CONVENTIONS.md`)
 
 - **Phase status values:** `not-started`, `in-progress`, `complete`, `skipped`, `revisiting`
+- **Phase progression patterns:** phases may run in parallel, loop back via `revisiting`, or be `skipped`; see `config/CONVENTIONS.md`
 - **Confidence ratings:** High / Medium / Low (Low is useful signal, not failure)
 - **Decision log format:** date, options considered, chosen, rationale, downstream impact, decider
 - **Handover format:** see `phases/*/HANDOVER.md` headings

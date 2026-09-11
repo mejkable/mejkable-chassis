@@ -92,7 +92,7 @@ git commit -m "init: scaffold from mejkable-chassis v0.1"
 6. Use PROMPT.md → copy relevant sub-task prompts, run them
 7. Paste outputs into WORKBOOK.md
 8. Log decisions in DECISIONS.md
-9. When phase is complete → write HANDOVER.md
+9. When closing the phase → write HANDOVER.md (an interim one if the phase runs on in parallel; see Phase Progression Patterns in config/CONVENTIONS.md)
 10. Update PROJECT.md status tracker
 11. Commit: "phase-02: complete competitive deep-dive"
 ```

@@ -45,7 +45,7 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 ## Non-Negotiables
 
 1. **Never edit `BRIEF.md` or `PROMPT.md` in this repo.** If they need improvement, note it in `CHASSIS-NOTES.md` for later backport to the template. Editing them here breaks the template's improvement flow.
-2. **Always write `HANDOVER.md` before advancing to the next phase.** It is the interface between phases, skipping it breaks downstream context.
+2. **Always write `HANDOVER.md` before closing a phase, even an interim one.** It is the interface between phases, skipping it breaks downstream context. Phases may overlap or loop; the patterns for that (parallel in-progress, revisit, skipped) are in `config/CONVENTIONS.md` under Phase Progression Patterns.
 3. **Every meaningful choice goes in `DECISIONS.md` with rationale.** Future-you needs to know WHY, not just WHAT.
 4. **Every phase has a gate decision** (go, no-go, pivot, return). Record it in `DECISIONS.md` before advancing `PROJECT.md`.
 5. **External work counts too.** CAD sessions, supplier calls, workshop findings. Capture outcomes in the relevant `WORKBOOK.md` or `DECISIONS.md`. The chassis is a coordination tool, not a cage.
