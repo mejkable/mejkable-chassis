@@ -14,6 +14,7 @@
 - Add a Major backport subsection to `WORKFLOW.md` with explicit preserve, safe-to-overwrite and merge-by-hand lists for whole-chassis version jumps
 - Define the fixed Sub-Task Output Footer (Sources & confidence, Assumptions made, Open questions, Candidate decisions) in `config/CONVENTIONS.md`
 - Replace the freeform retrospective questions in `WORKFLOW.md` with a fixed per-phase scorecard (used, output quality 1–3, prompt edited, handover sufficient); add the same table as an optional block in `CHASSIS-NOTES.md`
+- Wrap the placeholder note entry in `CHASSIS-NOTES.md` in an HTML comment labelled as a template, so a skim no longer reads it as content
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

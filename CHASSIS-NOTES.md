@@ -14,6 +14,8 @@ Review this file weekly or between phases. Apply improvements to the template re
 
 ## Notes
 
+<!-- Template for new entries, copy the block below (newest first):
+
 ### [Date] — Phase [##]: [Sub-task or activity]
 
 **File:** [e.g., phases/03-product-definition/BRIEF.md]
@@ -21,6 +23,8 @@ Review this file weekly or between phases. Apply improvements to the template re
 **Description:** [What should change and why]
 **Priority:** [High / Medium / Low]
 **Applied to template?** [ ]
+
+-->
 
 ---
 
