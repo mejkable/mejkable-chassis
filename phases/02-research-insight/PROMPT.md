@@ -13,6 +13,19 @@ Work under the Operating Policy in `../../AGENTS.md`: tag every figure, standard
 
 ---
 
+## How to Use This Prompt
+
+Each sub-task below is a standalone prompt. Run them individually, capture outputs in WORKBOOK.md, and use the synthesis prompt at the end to pull everything together for the HANDOVER.
+
+### Before you run a sub-task
+
+1. Read the sub-task prompt and its inputs without carrying it out.
+2. List what is unclear or missing, in at most five bullets.
+3. If any item would materially change the output, ask the user one question and wait for the answer.
+4. Otherwise, state your assumptions at the top of the output and proceed.
+
+---
+
 ## Sub-Task Prompts
 
 ### Competitive Deep-Dive
