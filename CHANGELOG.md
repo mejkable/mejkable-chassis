@@ -15,6 +15,7 @@
 - Define the fixed Sub-Task Output Footer (Sources & confidence, Assumptions made, Open questions, Candidate decisions) in `config/CONVENTIONS.md`
 - Replace the freeform retrospective questions in `WORKFLOW.md` with a fixed per-phase scorecard (used, output quality 1–3, prompt edited, handover sufficient); add the same table as an optional block in `CHASSIS-NOTES.md`
 - Wrap the placeholder note entry in `CHASSIS-NOTES.md` in an HTML comment labelled as a template, so a skim no longer reads it as content
+- Align cross-file wording: `config/CONVENTIONS.md` file-roles table no longer says BRIEF and PROMPT take user customisation in a live project; the `WORKFLOW.md` CHASSIS-NOTES format block matches the shipped `CHASSIS-NOTES.md`; session-close step added to the Daily Workflow in `WORKFLOW.md`; starter session steps and single-sources list in `library/templates/AGENTS.project-starter.md` match the softened handover rule and the new CONVENTIONS sections
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

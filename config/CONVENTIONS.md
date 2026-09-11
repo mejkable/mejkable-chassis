@@ -6,8 +6,8 @@ Every phase folder contains the same core files:
 
 | File | Role | Who writes it |
 |---|---|---|
-| **BRIEF.md** | Defines the phase — purpose, inputs needed, sub-tasks, done-criteria | Chassis (template) + user customisation |
-| **PROMPT.md** | Agent instructions — provider-agnostic task framing for AI-assisted work | Chassis (template) + user customisation |
+| **BRIEF.md** | Defines the phase — purpose, inputs needed, sub-tasks, done-criteria | Chassis (template); live projects propose changes via `CHASSIS-NOTES.md`, never edit it in place |
+| **PROMPT.md** | Agent instructions — provider-agnostic task framing for AI-assisted work | Chassis (template); live projects propose changes via `CHASSIS-NOTES.md`, never edit it in place |
 | **WORKBOOK.md** | Working output — findings, drafts, iterations, raw material | Agent + user |
 | **DECISIONS.md** | Choices made, options considered, rationale, owner | User (agent can draft) |
 | **HANDOVER.md** | Structured summary passed to the next phase | Agent + user review |
@@ -159,7 +159,7 @@ Development work often happens outside this system — in CAD software, on a wor
 
 When external work produces decisions or findings relevant to the project:
 1. Capture the outcome in the relevant phase's WORKBOOK.md or DECISIONS.md
-2. Update the HANDOVER.md if the phase summary changes
+2. Update the HANDOVER.md if the phase summary changes (for a `complete` phase, that means opening a revisit first, see Append-Only and Revisiting Rules)
 3. Note it in the project LOG.md
 
 The chassis is a thinking and coordination tool, not a cage.

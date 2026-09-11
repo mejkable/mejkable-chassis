@@ -107,6 +107,7 @@ git commit -m "init: scaffold from mejkable-chassis v0.1"
 9. When closing the phase → write HANDOVER.md (an interim one if the phase runs on in parallel; see Phase Progression Patterns in config/CONVENTIONS.md)
 10. Update PROJECT.md status tracker
 11. Commit: "phase-02: complete competitive deep-dive"
+12. At the end of every session, whether or not the phase closed → update Running Notes in PROJECT.md, append to journal/LOG.md, commit
 ```
 
 ### Noticing a chassis improvement while working
@@ -268,7 +269,7 @@ git add .
 git commit -m "backport: updated phase-05 BRIEF and PROMPT from chassis v0.2"
 ```
 
-Only backport BRIEF.md and PROMPT.md — never overwrite WORKBOOK.md, DECISIONS.md, or HANDOVER.md in a live project.
+Only backport BRIEF.md and PROMPT.md — never overwrite WORKBOOK.md, DECISIONS.md, or HANDOVER.md that carry content in a live project (blank ones in `not-started` phases are the one exception, see below).
 
 ### Major backport (whole-chassis version jump)
 
@@ -324,22 +325,16 @@ Read `CHANGELOG.md` in the chassis for the version you are jumping to before sta
 
 ## CHASSIS-NOTES.md Format
 
-Keep this in the root of each live project repo:
+The chassis ships `CHASSIS-NOTES.md` at the repo root and it is copied into every live project at scaffold time. It carries a commented-out template for entries and an optional Retrospective Scorecard section. Entry format, newest first:
 
 ```markdown
-# Chassis Improvement Notes
-
-Notes captured during live project work. To be reviewed and applied to the
-template repo periodically.
-
-## [Date] — [Phase where discovered]
+### [Date] — Phase [##]: [Sub-task or activity]
 
 **File:** [e.g., phases/02-research-insight/BRIEF.md]
-**Type:** [Missing sub-task / Prompt improvement / Template gap / Structural change]
+**Type:** [Missing sub-task / Prompt improvement / Template gap / Structural change / New idea]
 **Description:** [What should change and why]
-**Priority:** [High — needed for next project / Medium — would be nice / Low — minor polish]
-
----
+**Priority:** [High / Medium / Low]
+**Applied to template?** [ ]
 ```
 
 ---

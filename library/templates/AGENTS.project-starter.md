@@ -30,7 +30,7 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 4. Read the current phase's `BRIEF.md` and select sub-tasks from the menu
 5. Execute sub-tasks using `PROMPT.md`, capture output in `WORKBOOK.md`
 6. Log every meaningful choice in `DECISIONS.md` (format in `config/CONVENTIONS.md`)
-7. On phase completion, write `HANDOVER.md`, update `PROJECT.md`, commit
+7. On closing the phase (complete, or interim if it runs on in parallel), write `HANDOVER.md`, update `PROJECT.md`, commit
 
 ### Closing a session
 Do this at the end of every working session, not only at phase completion:
@@ -41,14 +41,14 @@ Do this at the end of every working session, not only at phase completion:
 `PROJECT.md` stays under one screen. It is the map, not the record: `WORKBOOK.md` is the file that grows, and `journal/LOG.md` holds the history. When Running Notes fill up, move the detail into the current phase's `WORKBOOK.md` and keep only the pointer.
 
 ### Single sources of truth
-- `config/CONVENTIONS.md`, file roles, decision format, handover format, status values, naming, confidence ratings
+- `config/CONVENTIONS.md`, file roles, status values, phase progression patterns, confidence ratings, decision format, sub-task output footer, handover format, append-only rules, naming
 - `config/PROVIDERS.md`, which AI service handles which task type (prompts themselves stay provider-agnostic)
 
 ## Operating Policy
 
 1. **Data integrity.** Every number, standard, supplier, competitor or citation you produce is tagged **Verified** (source given), **Estimated** (method given) or **Unknown**. Never invent a standard reference, a price point, a tariff rate, a market figure or a source. If you cannot find it, say so and mark it Unknown; an honest gap is worth more than a plausible fill.
 2. **Ask before, proceed on.** Ask the user before changing a recorded decision, marking a phase `complete`, or committing money (orders, deposits, tooling, subscriptions). Proceed without asking on drafting, research and synthesis.
-3. **Scope.** Run only the sub-task selected. Do not widen it, pull in neighbouring sub-tasks, or edit files outside the current phase. If something out of scope needs doing, note it in `WORKBOOK.md` and raise it, then stop.
+3. **Scope.** Run only the sub-task selected. Do not widen it, pull in neighbouring sub-tasks, or edit another phase's files. If something out of scope needs doing, note it in `WORKBOOK.md` and raise it, then stop.
 
 ## Non-Negotiables
 

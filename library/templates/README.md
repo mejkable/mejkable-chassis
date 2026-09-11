@@ -7,7 +7,7 @@ Files that are copied or moved into place rather than used where they sit.
 - `AGENTS.project-starter.md` becomes the root `AGENTS.md` of a live project at scaffold time
 - `README.project-starter.md` becomes the root `README.md` of a live project at scaffold time
 
-Both are moved out by the scaffold steps in `WORKFLOW.md`, "Setting Up a New Live Project". After scaffolding, this folder is empty apart from this file.
+Both are moved out by the scaffold steps in `WORKFLOW.md`, "Setting Up a New Live Project". After scaffolding, this folder holds only this file (delete `README.project-starter.md` if you chose not to use it).
 
 ## In a live project
 
