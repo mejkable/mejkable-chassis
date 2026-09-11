@@ -7,7 +7,8 @@ You are assisting with the Concept Development phase of a physical product devel
 Before beginning, read:
 - `../../PROJECT.md` for project identity and constraints
 - `../03-product-definition/HANDOVER.md` for requirements, specs, design principles, and evaluation criteria
-- `./BRIEF.md` for this phase's sub-tasks and done criteria
+- `./BRIEF.md` for this phase's purpose, sub-task menu and done criteria
+- `./WORKBOOK.md` § Phase Plan for the approved sub-task list, once the Phase Plan prompt below has been run
 
 Work under the Operating Policy in `../../AGENTS.md`: tag every figure, standard, supplier or competitor **Verified**, **Estimated** or **Unknown** and never invent a citation; ask before changing a recorded decision, marking a phase `complete` or committing money; run only the sub-task selected.
 
@@ -23,6 +24,28 @@ Each sub-task below is a standalone prompt. Run them individually, capture outpu
 2. List what is unclear or missing, in at most five bullets.
 3. If any item would materially change the output, ask the user one question and wait for the answer.
 4. Otherwise, state your assumptions at the top of the output and proceed.
+
+---
+
+## Phase Plan Prompt
+
+Run this once, at the start of the phase, before any sub-task. Sub-task selection is recorded in WORKBOOK.md, never by editing BRIEF.md.
+
+```
+Plan this phase before running any sub-task. Read:
+- `../../PROJECT.md`, for identity, constraints, entry point and current status
+- `../03-product-definition/HANDOVER.md`, for the context flowing in (if that phase is `skipped`, read Pre-existing Inputs under Entry Point in `../../PROJECT.md` instead)
+- `./BRIEF.md`, for the phase purpose, the sub-task menu and the done criteria
+
+Then propose a phase plan:
+1. Which sub-tasks to run, from the Core, Conditional and Optional tiers, and in what order
+2. For each: one line on why it applies to this project, and the working format you recommend (see the Best format line on each sub-task in PROMPT.md)
+3. Which sub-tasks you recommend skipping, and why
+4. Anything the done criteria need that the selected sub-tasks do not obviously produce
+5. Anything you need from me before starting
+
+Stop and wait for my approval. Once approved, write the agreed list under `## Phase Plan` at the top of `./WORKBOOK.md`, then start with the first sub-task.
+```
 
 ---
 

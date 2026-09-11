@@ -19,6 +19,7 @@
 - Echo a one-line Operating Policy pointer (Verified / Estimated / Unknown tags, ask-vs-proceed, scope) in the Agent Context of every `phases/**/PROMPT.md`
 - Add a Before you run a sub-task block (list unclear points, ask one question if material, otherwise state assumptions and proceed) under How to Use This Prompt in every `phases/**/PROMPT.md`, adding that section where it was missing
 - Add an Output Capture section to every `phases/**/PROMPT.md` pointing at the Sub-Task Output Footer in `config/CONVENTIONS.md`
+- Add a Phase Plan prompt at the top of every `phases/**/PROMPT.md` (agent proposes sub-tasks from the BRIEF menu, user approves, agreed list goes under Phase Plan in WORKBOOK.md); Agent Context read lists now point at that section; session step 4 in `library/templates/AGENTS.project-starter.md` and Daily Workflow step 5 in `WORKFLOW.md` follow suit
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

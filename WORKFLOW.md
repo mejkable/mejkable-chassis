@@ -100,7 +100,7 @@ git commit -m "init: scaffold from mejkable-chassis v0.1"
 2. The agent reads AGENTS.md automatically → knows the system
 3. Check PROJECT.md → see current phase and status
 4. Go to current phase folder
-5. Read BRIEF.md → understand the phase and select sub-tasks
+5. Read BRIEF.md → run the Phase Plan prompt from PROMPT.md, agree the sub-task list, record it under Phase Plan in WORKBOOK.md
 6. Use PROMPT.md → copy relevant sub-task prompts, run them
 7. Paste outputs into WORKBOOK.md
 8. Log decisions in DECISIONS.md
