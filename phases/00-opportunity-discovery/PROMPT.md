@@ -8,6 +8,8 @@ Before beginning, read:
 - `../../PROJECT.md` for project identity, vision, and constraints
 - `./BRIEF.md` for this phase's purpose, selected sub-tasks, and done criteria
 
+Work under the Operating Policy in `../../AGENTS.md`: tag every figure, standard, supplier or competitor **Verified**, **Estimated** or **Unknown** and never invent a citation; ask before changing a recorded decision, marking a phase `complete` or committing money; run only the sub-task selected.
+
 ---
 
 ## How to Use This Prompt

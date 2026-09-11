@@ -9,6 +9,8 @@ Before beginning, read:
 - `../08-launch-preparation/HANDOVER.md` for launch details and success metrics
 - `./BRIEF.md` for this phase's sub-tasks
 
+Work under the Operating Policy in `../../AGENTS.md`: tag every figure, standard, supplier or competitor **Verified**, **Estimated** or **Unknown** and never invent a citation; ask before changing a recorded decision, marking a phase `complete` or committing money; run only the sub-task selected.
+
 ---
 
 ## Sub-Task Prompts
