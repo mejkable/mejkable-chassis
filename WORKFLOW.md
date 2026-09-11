@@ -270,6 +270,56 @@ git commit -m "backport: updated phase-05 BRIEF and PROMPT from chassis v0.2"
 
 Only backport BRIEF.md and PROMPT.md — never overwrite WORKBOOK.md, DECISIONS.md, or HANDOVER.md in a live project.
 
+### Major backport (whole-chassis version jump)
+
+Sometimes a chassis release changes structure, not just prompts: a file becomes a shim, a new root file appears, a convention is rewritten, a template folder gains READMEs. Copying two files per phase does not cover that, and copying everything would destroy the project. Use this checklist instead. Work on a branch in the live project and diff before merging.
+
+**Preserve (never overwrite):**
+
+- `PROJECT.md`, `CHASSIS-NOTES.md`, `CHANGELOG.md` (the live project's own history)
+- `AGENTS.md` at the root: it carries Project Identity and any project-specific additions. Merge new starter sections into it by hand, see below
+- `README.md` and `LICENSE`: they belong to the product, not the chassis
+- Every phase folder whose status is `complete`, `in-progress` or `revisiting`, all five files
+- `WORKBOOK.md`, `DECISIONS.md`, `HANDOVER.md` in any phase that has content, whatever its status
+- `library/research/**` and `library/assets/**`
+- `journal/LOG.md` if it has entries
+- `config/PROVIDERS.md` if it has been filled in
+
+**Safe to overwrite from the new chassis version:**
+
+- `CLAUDE.md` (the shim)
+- `config/CONVENTIONS.md`
+- `WORKFLOW.md`
+- `phases/*/BRIEF.md` and `phases/*/PROMPT.md` for phases whose status is `not-started`
+- Blank `WORKBOOK.md`, `DECISIONS.md`, `HANDOVER.md` in `not-started` phases only
+- `library/research/README.md`, `library/assets/README.md`, `library/templates/README.md`
+- `library/templates/README.project-starter.md` (harmless in a live project, it is only used at scaffold time)
+- `.gitignore`, if the project has not customised it
+
+**Merge by hand:**
+
+- `AGENTS.md`: diff the new `library/templates/AGENTS.project-starter.md` against the live `AGENTS.md`. Take new or changed sections from the starter, keep the project's Project Identity block and any project-specific content at the bottom. Then delete the starter file from `library/templates/`.
+- Phases that are `in-progress`: read the new `BRIEF.md` and `PROMPT.md` side by side with the old, adopt only what does not invalidate work already captured in the phase's `WORKBOOK.md`.
+
+```bash
+# In the live project, on a branch:
+git checkout -b backport/chassis-v0.2
+C=../mejkable-chassis
+
+cp $C/CLAUDE.md $C/WORKFLOW.md .
+cp $C/config/CONVENTIONS.md config/
+cp $C/library/research/README.md library/research/
+cp $C/library/assets/README.md library/assets/
+cp $C/library/templates/README.md $C/library/templates/README.project-starter.md library/templates/
+# For each not-started phase:
+cp $C/phases/05-design-development/{BRIEF,PROMPT,WORKBOOK,DECISIONS,HANDOVER}.md phases/05-design-development/
+# Then merge AGENTS.md by hand, review the diff, and record it:
+echo "Backported structural changes from mejkable-chassis v0.2" >> CHANGELOG.md
+git add . && git commit -m "backport: chassis v0.2 structural changes"
+```
+
+Read `CHANGELOG.md` in the chassis for the version you are jumping to before starting; it names every file the release touched.
+
 ---
 
 ## CHASSIS-NOTES.md Format
