@@ -7,6 +7,7 @@
 - Add a Phase Progression Patterns section (parallel in-progress, revisit loop, skipped) to `config/CONVENTIONS.md`; soften Non-Negotiable 2 in `library/templates/AGENTS.project-starter.md` to "before closing a phase, even an interim one"; add pointers in `AGENTS.md` and `WORKFLOW.md`
 - Trim `AGENTS.md` to point at `config/CONVENTIONS.md` and `WORKFLOW.md` instead of restating status values, confidence ratings and formats; drop the duplicated decision-log field list from `library/templates/AGENTS.project-starter.md`
 - Add a Closing a session step to `library/templates/AGENTS.project-starter.md` (update Running Notes, append to `journal/LOG.md`, commit); add a not-yet-initialised marker and a one-screen rule to `PROJECT.md`
+- Add an entry-phase decision aid (rule of thumb plus table by starting point with expected prior inputs) to the Entry Point section of `PROJECT.md`; point the session-start steps in `library/templates/AGENTS.project-starter.md` at Pre-existing Inputs when earlier phases are skipped
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

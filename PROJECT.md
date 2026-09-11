@@ -71,6 +71,19 @@ Not every project starts at Phase 0. Record where this project enters the chassi
 | **Reason** | [Why earlier phases are skipped or pre-existing] |
 | **Pre-existing Inputs** | [List what's already done — e.g., "Gameplay design complete, artwork 90% done"] |
 
+**Choosing the entry phase.** Enter at the first phase whose done criteria (in its `BRIEF.md`) you cannot yet honestly tick. Everything before it is marked `skipped` in the tracker above, with the reason logged in that phase's `DECISIONS.md`. The next phase reads Pre-existing Inputs in place of a handover.
+
+| Where you are starting from | Typical entry | Expected prior inputs |
+|---|---|---|
+| **Opportunity-led:** a market, trend or gap you want to explore | 00 | None |
+| **Problem-led:** a problem you have felt or observed, no research yet | 01 | Problem in your own words, who has it |
+| **Insight-led:** a validated problem with evidence, no product spec | 02–03 | Problem statement, user or market evidence |
+| **Design-led:** a concept, sketch or design already exists | 03–04 | Concept material, intended user, rough positioning |
+| **Prototype-led:** something works, needs to be made repeatably | 06–07 | Working prototype, draft BOM, test results |
+| **Launch-led:** the product exists, needs to reach customers | 08 | Production-ready product, unit cost, target channel |
+
+If the inputs for your chosen entry phase are thinner than the table expects, enter one phase earlier and run only the Core sub-tasks.
+
 ---
 
 ## Running Notes

@@ -26,7 +26,7 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 ### Starting or resuming a session
 1. Read `PROJECT.md` for current phase and status
 2. Go to the current phase folder
-3. Read the previous phase's `HANDOVER.md` (the context flowing in)
+3. Read the previous phase's `HANDOVER.md` (the context flowing in). If this is the entry phase and earlier phases are `skipped`, read Pre-existing Inputs under Entry Point in `PROJECT.md` instead
 4. Read the current phase's `BRIEF.md` and select sub-tasks from the menu
 5. Execute sub-tasks using `PROMPT.md`, capture output in `WORKBOOK.md`
 6. Log every meaningful choice in `DECISIONS.md` (format in `config/CONVENTIONS.md`)
