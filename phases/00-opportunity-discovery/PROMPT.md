@@ -17,7 +17,7 @@ Work under the Operating Policy in `../../AGENTS.md`: tag every figure, standard
 
 This file contains task framings for each sub-task in the phase. Use them individually or in sequence depending on the workflow. Each sub-task can be run as a standalone agent session.
 
-Copy the relevant section, provide it to your agent along with any context, and capture the output in WORKBOOK.md.
+Copy the relevant section, provide it to your agent along with any context, and capture the output in WORKBOOK.md. Start with the Phase Plan prompt; run the Critique prompt last, in a fresh session, before the handover is marked final.
 
 ### Before you run a sub-task
 

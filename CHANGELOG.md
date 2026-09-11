@@ -23,6 +23,7 @@
 - Add a Critique prompt to every `phases/**/PROMPT.md`: a fresh session in a named sceptical role per phase (investor, user researcher, product manager, design director, DFM engineer, validation engineer, QA manager, launch lead, head of operations) reviews the draft handover against the done criteria and returns gaps, unsupported claims and its own confidence rating
 - Rewrite every input placeholder in `phases/**/PROMPT.md` in dual form: `[FROM <file> § <section> — read it, or paste here if you have no file access]` pointing at the HANDOVER, WORKBOOK, PROJECT or DECISIONS file the input actually lives in, and `[USER PROVIDES: …]` for inputs that have no file source
 - Add a Best format line (Solo with agent / Workshop / Primary research / Solo with expert review / External tool) and a Solo fallback quality line (High / Medium / Low with what is lost) to all 67 sub-tasks in `phases/**/PROMPT.md`
+- Align wording after the cluster B pass: How to Use in every `phases/**/PROMPT.md` names the Phase Plan and Critique prompts; the WORKBOOK row of the file-roles table in `config/CONVENTIONS.md` mentions the phase plan
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

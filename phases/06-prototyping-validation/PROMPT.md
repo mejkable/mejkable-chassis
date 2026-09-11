@@ -17,7 +17,7 @@ Work under the Operating Policy in `../../AGENTS.md`: tag every figure, standard
 
 ## How to Use This Prompt
 
-Each sub-task below is a standalone prompt. Run them individually, capture outputs in WORKBOOK.md, and use the synthesis prompt at the end to pull everything together for the HANDOVER.
+Each sub-task below is a standalone prompt. Run them individually, capture outputs in WORKBOOK.md, and use the synthesis prompt at the end to pull everything together for the HANDOVER. Start with the Phase Plan prompt; run the Critique prompt last, in a fresh session, before the handover is marked final.
 
 ### Before you run a sub-task
 

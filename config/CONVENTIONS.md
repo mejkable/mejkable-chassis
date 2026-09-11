@@ -8,7 +8,7 @@ Every phase folder contains the same core files:
 |---|---|---|
 | **BRIEF.md** | Defines the phase — purpose, inputs needed, sub-tasks, done-criteria | Chassis (template); live projects propose changes via `CHASSIS-NOTES.md`, never edit it in place |
 | **PROMPT.md** | Agent instructions — provider-agnostic task framing for AI-assisted work | Chassis (template); live projects propose changes via `CHASSIS-NOTES.md`, never edit it in place |
-| **WORKBOOK.md** | Working output — findings, drafts, iterations, raw material | Agent + user |
+| **WORKBOOK.md** | Working output — the approved phase plan, then findings, drafts, iterations, raw material | Agent + user |
 | **DECISIONS.md** | Choices made, options considered, rationale, owner | User (agent can draft) |
 | **HANDOVER.md** | Structured summary passed to the next phase | Agent + user review |
 
