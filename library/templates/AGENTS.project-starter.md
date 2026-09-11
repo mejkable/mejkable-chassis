@@ -36,6 +36,12 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 - `config/CONVENTIONS.md`, file roles, decision format, handover format, status values, naming, confidence ratings
 - `config/PROVIDERS.md`, which AI service handles which task type (prompts themselves stay provider-agnostic)
 
+## Operating Policy
+
+1. **Data integrity.** Every number, standard, supplier, competitor or citation you produce is tagged **Verified** (source given), **Estimated** (method given) or **Unknown**. Never invent a standard reference, a price point, a tariff rate, a market figure or a source. If you cannot find it, say so and mark it Unknown; an honest gap is worth more than a plausible fill.
+2. **Ask before, proceed on.** Ask the user before changing a recorded decision, marking a phase `complete`, or committing money (orders, deposits, tooling, subscriptions). Proceed without asking on drafting, research and synthesis.
+3. **Scope.** Run only the sub-task selected. Do not widen it, pull in neighbouring sub-tasks, or edit files outside the current phase. If something out of scope needs doing, note it in `WORKBOOK.md` and raise it, then stop.
+
 ## Non-Negotiables
 
 1. **Never edit `BRIEF.md` or `PROMPT.md` in this repo.** If they need improvement, note it in `CHASSIS-NOTES.md` for later backport to the template. Editing them here breaks the template's improvement flow.

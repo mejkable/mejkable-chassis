@@ -1,5 +1,9 @@
 # Changelog — Mejkable Chassis
 
+## v0.2 — (unreleased)
+
+- Add an Operating Policy section (data integrity tags, ask-vs-proceed, scope discipline) to `library/templates/AGENTS.project-starter.md`
+
 ## v0.1 — Initial Public Release (2026-04-17)
 
 - 10 phases fully built out (00 through 09)
