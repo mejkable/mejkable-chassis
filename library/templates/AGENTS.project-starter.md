@@ -12,7 +12,7 @@ There is no code, no build step, no tests. The `.md` files ARE the system. They 
 
 ## Project Identity
 
-<!-- Fill in after scaffolding, then delete this comment. -->
+<!-- Scaffold step: fill in the four fields below, then delete this comment. Full scaffold checklist in WORKFLOW.md, "Setting Up a New Live Project". -->
 
 - **Name:**
 - **Category:**

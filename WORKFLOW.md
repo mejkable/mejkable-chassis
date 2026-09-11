@@ -64,17 +64,22 @@ cd my-product/
 mv library/templates/AGENTS.project-starter.md AGENTS.md
 # CLAUDE.md stays as-is (it's a thin shim that imports AGENTS.md)
 
-# 3. Initialise a fresh repo (if you used cp, not "Use this template")
+# 3. Fill in Project Identity in AGENTS.md (name, category, one-line
+#    description, scaffolded-from version and date) and delete the
+#    placeholder comment above it. The agent reads this block on every
+#    session start; a blank one means it works without knowing the product.
+
+# 4. Initialise a fresh repo (if you used cp, not "Use this template")
 rm -rf .git
 git init
 
-# 4. Record which template version this was created from
+# 5. Record which template version this was created from
 echo "Created from mejkable-chassis v0.1" >> CHANGELOG.md
 git add .
 git commit -m "init: scaffold from mejkable-chassis v0.1"
 
-# 5. Fill in PROJECT.md
-# 6. Start working
+# 6. Fill in PROJECT.md and delete its not-yet-initialised marker
+# 7. Start working
 ```
 
 ---
