@@ -52,17 +52,15 @@ mejkable-chassis/
 
 Phases 00, 02, 07, and 08 include funding-related sub-tasks.
 
-## Sub-Task Flexibility
+## Where the Rules Live
 
-Sub-tasks within each phase are a menu, not a checklist. Each project selects what applies based on category and entry point. `BRIEF.md` files contain the menu.
+This file does not restate values that have a canonical home elsewhere. Read the source, do not copy it here:
 
-## Key Conventions (canonical home: `config/CONVENTIONS.md`)
+- `config/CONVENTIONS.md`: file roles, phase status values, phase progression patterns (parallel, revisit, skipped), confidence ratings, sub-task flexibility, decision log format, handover format, append-only rules, naming
+- `WORKFLOW.md`: template-vs-live-project model, scaffolding steps, improvement flow, backport recipes, retrospective
+- `config/PROVIDERS.md`: which AI service handles which task type
 
-- **Phase status values:** `not-started`, `in-progress`, `complete`, `skipped`, `revisiting`
-- **Phase progression patterns:** phases may run in parallel, loop back via `revisiting`, or be `skipped`; see `config/CONVENTIONS.md`
-- **Confidence ratings:** High / Medium / Low (Low is useful signal, not failure)
-- **Decision log format:** date, options considered, chosen, rationale, downstream impact, decider
-- **Handover format:** see `phases/*/HANDOVER.md` headings
+If a value here and a value there disagree, the file above is right and this one is stale.
 
 ## Scaffolding a New Live Project
 

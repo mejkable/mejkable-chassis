@@ -29,7 +29,7 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 3. Read the previous phase's `HANDOVER.md` (the context flowing in)
 4. Read the current phase's `BRIEF.md` and select sub-tasks from the menu
 5. Execute sub-tasks using `PROMPT.md`, capture output in `WORKBOOK.md`
-6. Log every meaningful choice in `DECISIONS.md` (date, options, chosen, rationale, impact, decider)
+6. Log every meaningful choice in `DECISIONS.md` (format in `config/CONVENTIONS.md`)
 7. On phase completion, write `HANDOVER.md`, update `PROJECT.md`, commit
 
 ### Single sources of truth

@@ -5,6 +5,7 @@
 - Add an Operating Policy section (data integrity tags, ask-vs-proceed, scope discipline) to `library/templates/AGENTS.project-starter.md`
 - Add append-only and revisiting rules as Non-Negotiables 8–10 in `library/templates/AGENTS.project-starter.md` and a matching section in `config/CONVENTIONS.md`
 - Add a Phase Progression Patterns section (parallel in-progress, revisit loop, skipped) to `config/CONVENTIONS.md`; soften Non-Negotiable 2 in `library/templates/AGENTS.project-starter.md` to "before closing a phase, even an interim one"; add pointers in `AGENTS.md` and `WORKFLOW.md`
+- Trim `AGENTS.md` to point at `config/CONVENTIONS.md` and `WORKFLOW.md` instead of restating status values, confidence ratings and formats; drop the duplicated decision-log field list from `library/templates/AGENTS.project-starter.md`
 
 ## v0.1 — Initial Public Release (2026-04-17)
 
