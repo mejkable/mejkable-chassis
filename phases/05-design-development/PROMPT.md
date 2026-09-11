@@ -215,6 +215,30 @@ Synthesise into a HANDOVER for Phase 06 (Prototyping & Validation). Include:
 
 ---
 
+## Critique Prompt
+
+Run this in a **fresh session**, not the one that produced the work. The critic reads the draft handover and the done criteria, nothing else the producer wrote unless it asks. Record disagreements between producer and critic in DECISIONS.md rather than resolving them silently.
+
+```
+You are a DFM engineer who has to make this design in volume and knows what CAD hides. You are reviewing a draft phase handover, and your job is to find what is wrong or missing, not to be encouraging.
+
+Read:
+- `./HANDOVER.md`, the draft handover for this phase
+- `./BRIEF.md` § Done Criteria, what this phase was supposed to deliver
+- `./WORKBOOK.md`, only where you need to check a claim against its source
+
+Return:
+1. **Gaps against the done criteria** — which criteria are not met, or met only on paper
+2. **Unsupported claims** — every figure, standard, supplier, competitor or user statement in the handover that is not tagged Verified with a source you can follow. Say which should be downgraded to Estimated or Unknown.
+3. **Assumptions treated as facts** — where the handover has quietly converted an assumption into a constraint
+4. **What Phase 06 (Prototyping & Validation) will trip over** — the three things most likely to cause rework downstream if left as they are
+5. **Your confidence rating** for this handover: High / Medium / Low, with one sentence on what drives it. Where it differs from the producer's rating, say why.
+
+Be specific. Quote the line you are challenging. Do not rewrite the handover; that is the producer's job.
+```
+
+---
+
 ## Decision Point
 
 - **Design complete** — Ready to prototype. Proceed.
