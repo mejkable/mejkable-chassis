@@ -19,14 +19,22 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 
 ## v0.2
 
+**Review session, 2026-09-11.** All 22 `proposed` entries walked. 20 approved, 2 deferred to v0.3, 0 rejected. Approved entries are tagged with an application cluster so they can be applied on `release/v0.2` in three passes, each committed separately with its `CHANGELOG.md` lines:
+
+- **Cluster A, root and config files:** `library/templates/AGENTS.project-starter.md`, `config/CONVENTIONS.md`, `WORKFLOW.md`, `PROJECT.md`, `CHASSIS-NOTES.md`, new `library/**/README.md` and `library/templates/README.project-starter.md`. Small text edits, one session.
+- **Cluster B, `phases/**/PROMPT.md`:** ten files, one pass covering the clarify preamble, working-format lines, dual-form placeholders, output footer pointer, and the new Phase Plan and Critique prompts.
+- **Cluster C, `phases/**/BRIEF.md` and `phases/**/WORKBOOK.md`:** twenty files, one pass covering Core sub-task blurbs, the Critique sub-task in every menu, the checkbox note, and the Phase Plan section in every WORKBOOK.
+
 ### Scaffold step for CLAUDE.md customisation
 - **Source:** `candela/CHASSIS-NOTES.md` entry dated 2026-04-17
 - **Date:** 2026-04-19
 - **Motivation:** `WORKFLOW.md`'s "Setting Up a New Live Project" section says "Fill in PROJECT.md" and stops. `CLAUDE.md` also needs live-project tailoring (project identity line, removal of any template-only hints, optional entry-phase hint), but the scaffold flow does not call that out. Result: freshly scaffolded projects ship with a generic `CLAUDE.md`.
 - **Impact:** Add an explicit scaffold step, "Tailor CLAUDE.md: set project identity line, remove template-only sections." Also revisit `library/templates/AGENTS.project-starter.md` to ensure it is clearly a starter and not a duplicate of the chassis AGENTS.md.
 - **Priority:** High
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** `WORKFLOW.md`, `library/templates/AGENTS.project-starter.md`
+- **Review note:** Rescoped at review: `CLAUDE.md` is already a shim, so the scaffold step is "fill Project Identity in `AGENTS.md` and delete the placeholder comment".
 
 ### Scaffold handling of README.md and LICENSE
 - **Source:** `candela/CHASSIS-NOTES.md` entry dated 2026-04-17 (backport note)
@@ -34,7 +42,8 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** When scaffolding a live project from the chassis, the chassis's `README.md` (framework overview) and `LICENSE` (MIT for the chassis itself) get copied across. The README is misleading in a live project, it describes the framework rather than the product. The LICENSE covers the chassis scaffold, not the project's own content which may have different terms.
 - **Impact:** Update the scaffold flow to explicitly say "delete or replace `README.md`" and "replace `LICENSE` with the project's own licence, or remove it if undecided." Optionally ship a minimal `README.project-starter.md` in `library/templates/` that points at `PROJECT.md`.
 - **Priority:** High
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** `WORKFLOW.md`, `library/templates/AGENTS.project-starter.md`, possibly new `library/templates/README.project-starter.md`
 
 ### Guidance on parallel and looping phases
@@ -43,7 +52,8 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** The chassis defines `revisiting` as a phase status but never explains when or how to use it. Non-Negotiable #2 ("Always write `HANDOVER.md` before advancing to the next phase") reads strictly linear, which collides with real hardware work where phases overlap constantly (e.g. Phase 02 research tails run alongside Phase 03 product definition). Without explicit guidance, users either follow the rule rigidly and block on external dependencies, or abandon handover discipline and lose context.
 - **Impact:** Add a "Phase Progression Patterns" section to `config/CONVENTIONS.md` covering three patterns, (1) parallel in-progress with interim HANDOVER at Low confidence, (2) revisit loop via the `revisiting` status, (3) `skipped` phases logged in `DECISIONS.md`. Soften Non-Negotiable #2 to "Always write `HANDOVER.md` before *closing* a phase, even an interim one" and cross-reference the patterns.
 - **Priority:** High
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** `config/CONVENTIONS.md`, `AGENTS.md`, `library/templates/AGENTS.project-starter.md`, `WORKFLOW.md`
 
 ### AGENTS.md drift against CONVENTIONS.md
@@ -52,7 +62,8 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** Originally flagged in Candela as CLAUDE.md duplicating content from `config/CONVENTIONS.md` and `WORKFLOW.md` (repo tree, file-roles table, phase status values, confidence ratings). CLAUDE.md became a thin `@AGENTS.md` shim in v0.1, but AGENTS.md still mirrors those canonical values. Same drift risk, different file.
 - **Impact:** Trim AGENTS.md so it references `config/CONVENTIONS.md` and `WORKFLOW.md` rather than duplicating their values. Keep AGENTS.md focused on agent-harness behaviour, repo role rules, and pointers.
 - **Priority:** Medium
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** `AGENTS.md`, `library/templates/AGENTS.project-starter.md`
 - **Note:** Verify the scope of remaining duplication during review, v0.1 already resolved part of the original concern.
 
@@ -62,8 +73,10 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** A freshly scaffolded live project is visually indistinguishable from one mid-work, the only signal is unfilled square-bracket placeholders in tables. Future Claude instances waste cycles verifying whether the repo is initialised.
 - **Impact:** Add an explicit top-of-file marker to `PROJECT.md` such as `> Status: not-yet-initialised, fill in the sections below before starting phase work.` User deletes the marker once identity is populated.
 - **Priority:** Medium
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** `PROJECT.md`
+- **Review note:** Apply together with "Session-close ritual and one-screen PROJECT.md", same file, same concern.
 
 ### library/ naming convention and structure guide
 - **Source:** `candela/CHASSIS-NOTES.md` entry dated 2026-04-17
@@ -71,7 +84,8 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** The chassis ships empty `library/research/`, `library/assets/`, `library/templates/` folders with no guidance on how to organise material. Candela had to derive a convention (topic folder at top level, `YYMMDD Source Topic` for dated inputs, kebab-case for evergreen references, link-back pattern from WORKBOOKs). Every live project re-deriving this is waste.
 - **Impact:** Ship `library/research/README.md` in the template with the pre-written convention. Consider matching READMEs for `library/assets/` and `library/templates/`.
 - **Priority:** Medium
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** New `library/research/README.md`, possibly new `library/assets/README.md` and `library/templates/README.md`
 
 ### Entry-phase guidance for non-Phase-00 projects
@@ -80,7 +94,8 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** Candela enters at Phase 03 or 04, not 00. `PROJECT.md`'s Entry Point section asks for "Phase number" and "Reason" with no guidance on how to decide, or what pre-existing inputs each entry phase expects. Users default to 00 without thinking.
 - **Impact:** Add a short decision aid to the Entry Point section (or a table by category: design-led vs. problem-led vs. opportunity-led) so the user picks correctly. Consider an "expected prior inputs" checklist per entry phase.
 - **Priority:** Medium
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** `PROJECT.md`, `library/templates/AGENTS.project-starter.md`
 
 ### Major-backport recipe for existing live projects
@@ -89,7 +104,8 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** `WORKFLOW.md`'s backport section covers selectively copying `BRIEF`/`PROMPT`, but not whole-chassis version jumps (e.g. v0.1-prerelease to v0.1-public) where structural changes land: CLAUDE.md becoming a shim, new AGENTS.md, new `library/templates/AGENTS.project-starter.md`, refreshed `WORKFLOW.md` and `PROVIDERS.md`. A "major backport" checklist would save reinventing the safe set of overwrites vs. preserves every time.
 - **Impact:** Add a "Major backport" subsection to `WORKFLOW.md` with explicit preserves (`PROJECT.md`, `CHASSIS-NOTES.md`, completed phase folders, `library/research/**`, `journal/LOG.md` if populated, `config/PROVIDERS.md` if customised) and a list of safe overwrites.
 - **Priority:** Medium
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** `WORKFLOW.md`
 
 ### Sub-task working-format signal in PROMPT.md
@@ -98,7 +114,8 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** Several sub-tasks are classically done in teams, workshops, or with external tooling (user interviews, customer research, supplier calls, design critiques), not as a solo founder chatting to an agent. A solo-agent first pass is often good enough for compressed phases, but the chassis should be explicit about when a real team, workshop, or primary-research pass would materially upgrade the output.
 - **Impact:** Add a "Best format" line and "Solo fallback quality" line at the top of each sub-task in `PROMPT.md`. Format options: Solo with agent / Workshop (2–6 people) / Primary research (N interviews) / Solo with expert review / External tool (e.g. Dovetail, Miro). Quality: High / Medium / Low with a short note on what gets lost.
 - **Priority:** Medium
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** B
 - **Affected files:** `phases/**/PROMPT.md` (all 10 phases, ~30–40 sub-tasks total)
 
 ### Progressive disclosure in BRIEF sub-task menus
@@ -107,9 +124,11 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** The `BRIEF.md` sub-task menu is a single line per item, enough to recognise a familiar technique but not enough to choose between adjacent items or predict what running one will feel like. The full `PROMPT.md` is one layer away and written as an execution instrument, not a selection aid.
 - **Impact:** Per sub-task in `BRIEF.md`, add a two-to-four-sentence expansion covering what it produces, how it is typically run, rough duration, and when to skip. Consider markdown `<details>` blocks to keep the menu scannable.
 - **Priority:** Medium
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** C
 - **Affected files:** `phases/**/BRIEF.md` (all 10 phases)
 - **Note:** Composes naturally with the "working-format signal" entry above, address together to avoid double-touching each BRIEF/PROMPT pair.
+- **Review note:** Scoped at review to Core sub-tasks only. Conditional and Optional sub-tasks keep the one-line form in v0.2; extend in a later version if the Core blurbs prove useful.
 
 ### Backport CHASSIS-NOTES placeholder wrap to template
 - **Source:** `candela/CHASSIS-NOTES.md` entry dated 2026-04-17
@@ -117,8 +136,107 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** The chassis template's `CHASSIS-NOTES.md` has a placeholder entry using the same `### [Date]` heading structure as a real note, so a skim treats it as content. The fix (wrap in HTML comment, label "Template for new entries, copy the block below:") was applied in Candela's own file but has not been backported to the chassis template.
 - **Impact:** Small mechanical edit to the scaffold template, five-minute change.
 - **Priority:** Low
-- **Status:** proposed
+- **Status:** approved
+- **Cluster:** A
 - **Affected files:** Chassis-side `CHASSIS-NOTES.md` template (verify location during review, likely under `library/templates/` or at repo root)
+
+### Operating policy block: data integrity, ask-vs-proceed, scope discipline
+- **Source:** direct (harness comparison review against Lovable, Replit Agent and gpt-engineer, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit Agent's prompt carries named Data Integrity and Proactiveness policies; Lovable's carries explicit scope rules ("don't do more than what the user asks for"). The chassis has none. Its prompts ask for market sizes, competitor price points, COGS ranges, regulatory standards, supplier landscapes and funding benchmarks, and the strongest guard is "flag where you're uncertain or estimating". Nothing forbids inventing a standard number, a competitor, a tariff rate or a citation, and nothing says when an agent should ask versus proceed. For hardware, a fabricated EN or UL reference or an unsourced COGS figure flows through `HANDOVER.md` into Phase 03 requirements and Phase 07 quotes.
+- **Impact:** Add an "Operating Policy" section to `library/templates/AGENTS.project-starter.md` with three rules: (1) data integrity, every number, standard, supplier or competitor is tagged Verified (source given), Estimated (method given) or Unknown, and citations are never invented; (2) ask-vs-proceed, ask before changing a recorded decision, marking a phase complete or committing money, proceed on drafting, research and synthesis; (3) scope, run only the selected sub-task, do not widen. Echo a one-line pointer in the Agent Context of every `PROMPT.md`.
+- **Priority:** High
+- **Status:** approved
+- **Cluster:** A
+- **Affected files:** `library/templates/AGENTS.project-starter.md`, `phases/**/PROMPT.md` (Agent Context section)
+
+### Clarify-before-run preamble in every PROMPT.md
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** gpt-engineer's `clarify` preprompt made the agent read the instructions without carrying them out, list unclear areas as short bullets, ask one question and wait. Lovable defaults to discussion unless the user uses an action word. The chassis prompts say "flag your assumptions" but never instruct the agent to pause before producing, so an agent pointed at `PROMPT.md` runs the sub-task on whatever it assumes. A market scan run on a misunderstood category is a wasted session.
+- **Impact:** Add a standard "Before you run a sub-task" block under "How to Use This Prompt" in each `PROMPT.md`: list what is unclear in at most five bullets; if any item would materially change the output, ask one question and wait; otherwise state assumptions at the top of the output and proceed.
+- **Priority:** High
+- **Status:** approved
+- **Cluster:** B
+- **Affected files:** `phases/**/PROMPT.md`
+
+### Critique sub-task per phase, run as a fresh session in a named sceptical role
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit separates a verifier agent from the editor agents; gpt-engineer's `respec` step re-read the spec as a sceptical senior engineer and listed assumptions explicitly. In the chassis the agent that ran the sub-tasks also writes `HANDOVER.md`, and the synthesis prompts ask it to rate its own confidence. Nothing checks the producer.
+- **Impact:** Add a **Critique** sub-task to the Core menu of every `BRIEF.md` and a matching prompt in `PROMPT.md`: a fresh session reads the draft HANDOVER and the BRIEF's done criteria in a named sceptical role appropriate to the phase (investor for 00, user researcher for 01–02, DFM engineer for 05, QA manager for 07, launch lead for 08) and returns gaps, unsupported claims and its own confidence rating. Disagreements between producer and critic are recorded in `DECISIONS.md`.
+- **Priority:** High
+- **Status:** approved
+- **Cluster:** B+C
+- **Affected files:** `phases/**/BRIEF.md`, `phases/**/PROMPT.md`
+
+### Phase Plan sub-task; record sub-task selection in WORKBOOK, not BRIEF
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** `BRIEF.md` carries `- [ ]` checkboxes and says "select the sub-tasks relevant to your project", and each `PROMPT.md` tells the agent to read the BRIEF "for selected sub-tasks". But Non-Negotiable #1 in the project starter forbids editing `BRIEF.md` in a live project, so the selection is either recorded nowhere or recorded by breaking a rule. Lovable and Replit avoid this because plan approval is a first-class step (Plan mode, approve, Build mode).
+- **Impact:** Add a **Phase Plan** prompt at the top of every `PROMPT.md`: the agent reads the previous HANDOVER, `PROJECT.md` and the BRIEF, proposes which sub-tasks to run and why, and the user approves. The approved list is written to a new `## Phase Plan` section at the top of every `WORKBOOK.md`. In `BRIEF.md`, either drop the checkboxes or add a note that selection is recorded in WORKBOOK.
+- **Priority:** High
+- **Status:** approved
+- **Cluster:** B+C
+- **Affected files:** `phases/**/PROMPT.md`, `phases/**/WORKBOOK.md`, `phases/**/BRIEF.md`, `library/templates/AGENTS.project-starter.md` (step 4 of "Starting or resuming a session")
+- **Note:** Composes with the "working-format signal" and "progressive disclosure" entries above, which touch the same BRIEF/PROMPT pairs. Batch all PROMPT/BRIEF edits in one pass.
+
+### Dual-form placeholders (read the file, or paste)
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Every `PROMPT.md` opens with "Before beginning, read `../../PROJECT.md`" (an agent with file access) and then every sub-task uses `[USER INSERTS PROBLEM STATEMENT FROM PHASE 01]` (a human pasting into a chat window). Lovable's Agent mode and Replit's `replit.md` both moved to the agent reading context itself. Inside Claude Code, Codex or Cursor the placeholders are wasted work and a drift source, because the pasted text is a lossy copy of the HANDOVER.
+- **Impact:** Rewrite each placeholder as `[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 — read it, or paste here if you have no file access]`. Prompts stay usable in a chat window and become harness-native.
+- **Priority:** Medium
+- **Status:** approved
+- **Cluster:** B
+- **Affected files:** `phases/**/PROMPT.md`
+
+### Fixed output footer for sub-task results
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Lovable specifies exactly what surrounds a code block; Replit's `report_progress` tool specifies the summary format down to the glyphs. The chassis says "capture the output in WORKBOOK.md under clear headings" and stops, so every sub-task output has a different shape and HANDOVER synthesis is a re-reading exercise.
+- **Impact:** Define a standard footer in `config/CONVENTIONS.md` that every sub-task output ends with: **Sources & confidence**, **Assumptions made**, **Open questions**, **Candidate decisions**. Reference it from the Output Capture section of each `PROMPT.md`. Handover synthesis becomes mechanical and the Critique sub-task has something concrete to check.
+- **Priority:** Medium
+- **Status:** approved
+- **Cluster:** A+B
+- **Affected files:** `config/CONVENTIONS.md`, `phases/**/PROMPT.md` (Output Capture section)
+
+### Append-only and revisiting rules
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit's prompt carries explicit never-without-the-user rules after its July 2025 incident, where the agent deleted a production database during a declared code freeze. The chassis has no equivalent: nothing stops an agent rewriting a completed phase's `HANDOVER.md`, editing a past `DECISIONS.md` entry, or resetting the `PROJECT.md` status tracker.
+- **Impact:** Add three non-negotiables to the project starter and a matching note in `config/CONVENTIONS.md`: `DECISIONS.md` and `journal/LOG.md` are append-only (supersede with a new entry, never edit); a `complete` phase's HANDOVER is only touched after its status is set to `revisiting` and the reason is logged; never change another phase's files while working in the current one.
+- **Priority:** Medium
+- **Status:** approved
+- **Cluster:** A
+- **Affected files:** `library/templates/AGENTS.project-starter.md`, `config/CONVENTIONS.md`
+
+### Session-close ritual and one-screen PROJECT.md
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Replit's `replit.md` is generated and updated by the agent as it learns, and kept short; Lovable persists project Knowledge across sessions. The chassis has the same file (`PROJECT.md` plus `journal/LOG.md`) but only tells the agent to update it on phase completion. The "fresh-scaffold marker" entry above is a symptom of the same gap.
+- **Impact:** Add a "Closing a session" step to the project starter: update `PROJECT.md` Running Notes with anything the next session must know, append a dated entry to `journal/LOG.md`, commit. State that `PROJECT.md` stays under one screen and WORKBOOK is the file that grows.
+- **Priority:** Medium
+- **Status:** approved
+- **Cluster:** A
+- **Affected files:** `library/templates/AGENTS.project-starter.md`, `PROJECT.md`
+- **Review note:** Apply together with "Fresh-scaffold marker in PROJECT.md".
+
+### Fixed retrospective scorecard
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** gpt-engineer's `human_review` asked the same three questions after every run (did it run, did it do everything, did it do anything useful) so learnings were comparable across projects. The "After a Project Completes" section of `WORKFLOW.md` is a freeform list of questions, so retrospectives from different projects cannot be compared.
+- **Impact:** Replace the freeform questions with a per-phase scorecard table: for each sub-task, used / skipped; output quality 1–3; prompt edited yes/no; and for the phase, handover sufficient for the next phase yes/no. Add the same table as an optional block in the `CHASSIS-NOTES.md` template.
+- **Priority:** Low
+- **Status:** approved
+- **Cluster:** A
+- **Affected files:** `WORKFLOW.md`, `CHASSIS-NOTES.md`
+
+---
+
+---
+
+## v0.3
 
 ### Obsidian-friendly link pass
 - **Source:** direct (deferred from v0.1 polish)
@@ -126,7 +244,7 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
 - **Motivation:** Chassis is plain markdown with no cross-links. Obsidian works but does not shine. README recommends Obsidian/Typora, yet the file structure does not take advantage of their features.
 - **Impact:** Adds relative standard-markdown links and YAML frontmatter across ~15 files. Non-breaking on GitHub or other editors. Roughly 30 minutes of work.
 - **Priority:** Low (polish, not structural)
-- **Status:** proposed
+- **Status:** deferred
 - **Affected files:** `PROJECT.md`, `phases/**/BRIEF.md`, `phases/**/HANDOVER.md`, `AGENTS.md`, `WORKFLOW.md`, `CHASSIS-NOTES.md` (template)
 - **Scope:**
   1. `PROJECT.md` status table, link each phase name to `phases/NN-name/BRIEF.md`
@@ -137,9 +255,14 @@ Proposed changes for upcoming versions of the chassis. Items move from here to `
   6. `CHASSIS-NOTES.md`, link to the improvement-flow section in `WORKFLOW.md`
   7. YAML frontmatter on `PROJECT.md` and each phase's `BRIEF.md` with `phase`, `status`, `updated` fields
 - **Constraint:** Do not use `[[wikilinks]]`, they render literally on GitHub.
+- **Review note:** Deferred from v0.2 on 2026-09-11: polish, not structural. Re-check the YAML frontmatter idea before applying, a `status` field on each `BRIEF.md` would duplicate the `PROJECT.md` status tracker and drift.
 
----
-
-## v0.3
-
-(no items yet)
+### Worked example artefacts for Phases 00–01
+- **Source:** direct (harness comparison review, 2026-09-11)
+- **Date:** 2026-09-11
+- **Motivation:** Lovable's leaked prompt teaches behaviour mainly through worked user/assistant example pairs; gpt-engineer's file-format preprompts carried examples. The chassis has zero filled-in artefacts. Every WORKBOOK, DECISIONS and HANDOVER is a blank template, and agents imitate what they see.
+- **Impact:** Add `library/templates/examples/` with one fictional product carried through Phases 00 and 01: a filled WORKBOOK, DECISIONS and HANDOVER for each. Reference the examples from the project starter. Must be clearly fictional so it is never mistaken for live-project content.
+- **Priority:** Medium
+- **Status:** deferred
+- **Affected files:** new `library/templates/examples/`, `library/templates/AGENTS.project-starter.md`, `AGENTS.md` (repo structure listing)
+- **Review note:** Deferred from v0.2 on 2026-09-11: examples should demonstrate the v0.2 output footer and Phase Plan section, so write them after those land.
