@@ -12,7 +12,7 @@ There is no code, no build step, no tests. The `.md` files ARE the system. They 
 
 ## Project Identity
 
-<!-- Scaffold step: fill in the four fields below, then delete this comment. Full scaffold checklist in WORKFLOW.md, "Setting Up a New Live Project". -->
+<!-- Scaffold step: fill in the four fields below, then delete this comment. If README.md still describes the chassis or LICENSE is still the chassis's MIT file, the scaffold is unfinished. Full checklist in WORKFLOW.md, "Setting Up a New Live Project". -->
 
 - **Name:**
 - **Category:**

@@ -9,6 +9,7 @@
 - Add a Closing a session step to `library/templates/AGENTS.project-starter.md` (update Running Notes, append to `journal/LOG.md`, commit); add a not-yet-initialised marker and a one-screen rule to `PROJECT.md`
 - Add an entry-phase decision aid (rule of thumb plus table by starting point with expected prior inputs) to the Entry Point section of `PROJECT.md`; point the session-start steps in `library/templates/AGENTS.project-starter.md` at Pre-existing Inputs when earlier phases are skipped
 - Add a scaffold step to `WORKFLOW.md` for filling Project Identity in `AGENTS.md` and deleting the placeholder comment; reword that comment in `library/templates/AGENTS.project-starter.md` to point at the scaffold checklist
+- Add scaffold steps to `WORKFLOW.md` for replacing `README.md` and `LICENSE`; ship a minimal `library/templates/README.project-starter.md` that points at `PROJECT.md`; note the check in the starter's scaffold comment in `library/templates/AGENTS.project-starter.md`
 
 ## v0.1 — Initial Public Release (2026-04-17)
 

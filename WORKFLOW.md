@@ -22,6 +22,7 @@ Each has a different purpose and different rules about what gets edited.
 This is the **blank, reusable chassis**. It contains:
 
 - AGENTS.md and CLAUDE.md (harness instructions, kept generic — no project-specific content)
+- README.md and LICENSE (describe and license the chassis itself; both are replaced at scaffold time)
 - PROJECT.md (blank template)
 - config/ (CONVENTIONS.md, PROVIDERS.md as templates)
 - All phase folders with BRIEF.md, PROMPT.md, WORKBOOK.md, DECISIONS.md, HANDOVER.md
@@ -69,17 +70,23 @@ mv library/templates/AGENTS.project-starter.md AGENTS.md
 #    placeholder comment above it. The agent reads this block on every
 #    session start; a blank one means it works without knowing the product.
 
-# 4. Initialise a fresh repo (if you used cp, not "Use this template")
+# 4. Replace README.md and LICENSE. The chassis's README describes the
+#    framework, not your product, and its MIT LICENSE covers the chassis
+#    scaffold, not your project's own content.
+mv library/templates/README.project-starter.md README.md   # or: rm README.md
+rm LICENSE   # then add your project's own licence, or leave it out until decided
+
+# 5. Initialise a fresh repo (if you used cp, not "Use this template")
 rm -rf .git
 git init
 
-# 5. Record which template version this was created from
+# 6. Record which template version this was created from
 echo "Created from mejkable-chassis v0.1" >> CHANGELOG.md
 git add .
 git commit -m "init: scaffold from mejkable-chassis v0.1"
 
-# 6. Fill in PROJECT.md and delete its not-yet-initialised marker
-# 7. Start working
+# 7. Fill in PROJECT.md and delete its not-yet-initialised marker
+# 8. Start working
 ```
 
 ---
