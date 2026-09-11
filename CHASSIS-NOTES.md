@@ -23,3 +23,23 @@ Review this file weekly or between phases. Apply improvements to the template re
 **Applied to template?** [ ]
 
 ---
+
+## Retrospective Scorecard
+
+Optional. Fill in once per phase when the project completes, or when a phase closes if you prefer to score as you go. Same table every time so projects can be compared; the scale and how to read it are in `WORKFLOW.md`, "After a Project Completes".
+
+<!-- Template for scorecard blocks, copy the block below once per phase:
+
+### Phase NN — [Name]
+
+| Sub-task | Used | Output quality (1–3) | Prompt edited |
+|---|---|---|---|
+| [Sub-task name from BRIEF.md] | yes / no | 1 / 2 / 3 / — | yes / no |
+| Missing: [sub-task you needed but the menu lacked] | — | — | — |
+
+**Handover sufficient for the next phase:** yes / no
+**Note:** [one line, only if something above needs explaining]
+
+-->
+
+---

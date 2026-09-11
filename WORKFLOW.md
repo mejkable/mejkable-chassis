@@ -386,12 +386,32 @@ When a project reaches Phase 09 or is otherwise finished, do a full retrospectiv
 
 1. Review CHASSIS-NOTES.md for any un-applied improvements
 2. Review each phase's WORKBOOK and DECISIONS for friction points
-3. Ask: which sub-tasks were never used? Which were missing?
-4. Ask: which prompts produced great output? Which needed heavy editing?
-5. Ask: did the handover format carry the right information between phases?
-6. Apply all learnings to the template repo
-7. Tag a new template version
-8. Archive the completed project repo (it's a record of the full development journey)
+3. Fill in the retrospective scorecard below, one block per phase the project ran
+4. Add a "Missing" row for any sub-task you needed that the menu did not offer
+5. Apply all learnings to the template repo
+6. Tag a new template version
+7. Archive the completed project repo (it's a record of the full development journey)
+
+### Retrospective scorecard
+
+The same table for every phase and every project, so retrospectives can be compared across projects. Fill it in from the phase's WORKBOOK.md and HANDOVER.md, not from memory. Add it to the project's CHASSIS-NOTES.md (an optional block for it is already there) so it travels with the other notes.
+
+```markdown
+### Phase NN — [Name]
+
+| Sub-task | Used | Output quality (1–3) | Prompt edited |
+|---|---|---|---|
+| [Sub-task name from BRIEF.md] | yes / no | 1 / 2 / 3 / — | yes / no |
+| ... | | | |
+| Missing: [sub-task you needed but the menu lacked] | — | — | — |
+
+**Handover sufficient for the next phase:** yes / no
+**Note:** [one line, only if something above needs explaining]
+```
+
+Output quality: **1** needed heavy rework, **2** usable with edits, **3** used as produced, **—** not run. A prompt counts as edited if you changed its wording before running it, in which case the edit belongs in CHASSIS-NOTES.md too.
+
+Read the scorecards across phases before touching the template: a sub-task skipped in every project is a candidate for the Optional tier, a prompt edited in every project is a candidate for rewriting, and a "no" on handover sufficiency points at a HANDOVER field that is missing.
 
 ---
 
