@@ -27,6 +27,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Assembly & construction planning** — How does it go together? Assembly sequence, fastening methods, tolerances, fit requirements.
 - [ ] **Design review against requirements** — Systematic check: does the design meet every Must-Have requirement from Phase 03? Document compliance or deviations.
 - [ ] **Prototyping strategy** — What prototypes are needed, in what order, and what does each one test? Define the prototype roadmap for Phase 06.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type)
 

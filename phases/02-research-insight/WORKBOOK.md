@@ -104,6 +104,12 @@ Capture all research outputs here. This phase typically generates the most mater
 
 ---
 
+## Critique
+
+[Output of the Critique prompt, run in a fresh session after the draft HANDOVER exists. Gaps, unsupported claims, the critic's confidence rating, and what was changed in response. Disagreements with the producer go in DECISIONS.md.]
+
+---
+
 ## Raw Notes & Sources
 
 [Links, source documents, expert quotes, data files]

@@ -94,5 +94,11 @@
 
 ---
 
+## Critique
+
+[Output of the Critique prompt, run in a fresh session after the draft HANDOVER exists. Gaps, unsupported claims, the critic's confidence rating, and what was changed in response. Disagreements with the producer go in DECISIONS.md.]
+
+---
+
 ## Raw Notes & Scratchpad
 

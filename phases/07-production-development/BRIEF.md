@@ -28,6 +28,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Quality plan** — Define quality standards, inspection criteria, testing protocols, and acceptable quality levels (AQL).
 - [ ] **Production costing** — Final landed cost calculation including manufacturing, tooling amortisation, packaging, shipping, duties, warehousing.
 - [ ] **Production timeline** — End-to-end timeline from tooling order through first shipment.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type)
 

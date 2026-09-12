@@ -27,6 +27,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **User testing** — Put prototypes in front of target users. Observe, gather feedback, identify problems and opportunities.
 - [ ] **Design iteration** — Based on prototype learnings, refine the design. Track changes and rationale.
 - [ ] **Final design freeze** — Lock the design for production. Document what's final and what has tolerance for adjustment.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type)
 

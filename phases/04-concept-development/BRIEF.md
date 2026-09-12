@@ -26,6 +26,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Concept description & visualisation** — Describe each concept clearly. Include rough sketches, AI-generated visuals, reference images, or mood boards. Someone who wasn't in the room should be able to understand each concept.
 - [ ] **Concept evaluation matrix** — Score each concept against the evaluation criteria from Phase 03. Use a structured matrix to make the comparison explicit and fair.
 - [ ] **Concept selection & rationale** — Choose the winning concept(s) and document why. Record what was sacrificed in the alternatives.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type)
 

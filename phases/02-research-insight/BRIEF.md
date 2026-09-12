@@ -26,6 +26,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **User research synthesis** — Gather and synthesise user insights. This can range from reviewing existing data (forums, reviews, social media) to conducting interviews or surveys.
 - [ ] **Market sizing & segmentation** — Quantify the opportunity. TAM/SAM/SOM or equivalent. Validate or refine the segment chosen in Phase 01.
 - [ ] **Assumption validation tracker** — Systematically test the top assumptions from Phase 01. Record what was validated, invalidated, or remains uncertain.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type and situation)
 

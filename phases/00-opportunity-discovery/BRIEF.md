@@ -26,6 +26,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Initial market scan** — Is there an existing market? How big roughly? Growing or shrinking? Who are the current players?
 - [ ] **Target customer sketch** — Who would buy this? First-pass persona or customer segment description.
 - [ ] **Founder-market fit check** — Why are you/your team the right people? What unfair advantages or relevant experience exist?
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type and situation)
 

@@ -69,6 +69,12 @@ Paste agent outputs, notes, and findings here under the relevant sub-task headin
 
 ---
 
+## Critique
+
+[Output of the Critique prompt, run in a fresh session after the draft HANDOVER exists. Gaps, unsupported claims, the critic's confidence rating, and what was changed in response. Disagreements with the producer go in DECISIONS.md.]
+
+---
+
 ## Raw Notes & Scratchpad
 
 [Links, conversation fragments, interview notes, hunches, things that don't fit elsewhere]

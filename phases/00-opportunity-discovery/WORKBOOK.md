@@ -51,6 +51,12 @@ This is the working document for Phase 00. Paste agent outputs, notes, and findi
 
 ---
 
+## Critique
+
+[Output of the Critique prompt, run in a fresh session after the draft HANDOVER exists. Gaps, unsupported claims, the critic's confidence rating, and what was changed in response. Disagreements with the producer go in DECISIONS.md.]
+
+---
+
 ## Raw Notes & Scratchpad
 
 [Anything that doesn't fit above — links, screenshots, conversation fragments, hunches]

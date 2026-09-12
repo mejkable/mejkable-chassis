@@ -27,6 +27,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Target specification** — Measurable targets: dimensions, weight, battery life, material properties, player count, component count — whatever is quantifiable for this product.
 - [ ] **Prioritisation framework** — Must-have vs. should-have vs. nice-to-have. Use MoSCoW or similar to rank requirements. This is where trade-offs begin.
 - [ ] **Success criteria** — How will you know the product is good enough? Define measurable benchmarks for launch readiness.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type)
 

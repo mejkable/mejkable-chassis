@@ -27,6 +27,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Issue triage & response** — Identify, prioritise, and resolve product or service issues. Classify by severity and frequency.
 - [ ] **Inventory & reorder management** — Monitor stock levels, sales velocity, and trigger reorders with appropriate lead time.
 - [ ] **V2 / iteration roadmap** — Collect and prioritise improvement ideas and feature requests for the next version or iteration.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on situation)
 

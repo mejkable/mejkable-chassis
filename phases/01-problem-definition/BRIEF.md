@@ -27,6 +27,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Jobs-to-be-done mapping** — What functional, emotional, and social jobs is the user trying to get done? What does "success" look like from their perspective?
 - [ ] **Current alternatives analysis** — How do people solve this problem today? What's good and bad about each alternative? Where is the dissatisfaction?
 - [ ] **Assumption inventory** — List every assumption baked into the opportunity and problem framing. Flag which are validated, which are guesses, and which are critical to test.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type and situation)
 

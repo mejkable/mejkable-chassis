@@ -29,6 +29,7 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 - [ ] **Brand messaging & positioning** — Core value proposition, tagline, key messages, tone of voice. What to say and how.
 - [ ] **Launch plan** — Timeline of launch activities. Phased rollout or big bang. Key milestones and dependencies.
 - [ ] **Sales & marketing collateral** — What materials are needed: product photography, website, listings, sell sheets, social content.
+- [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
 
 ### Conditional (select based on product type and channel)
 
