@@ -178,7 +178,7 @@ Organise as a comparison matrix where possible. Flag trade-offs between cost, qu
 ```
 For this product:
 
-[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 and ./WORKBOOK.md § Materials & Technology Scan — read them, or paste here if you have no file access; add estimated volumes]
+[FROM ../01-problem-definition/HANDOVER.md § Inputs for Phase 02 and ./WORKBOOK.md § Materials & Technology — read them, or paste here if you have no file access; add estimated volumes]
 
 Explore feasible manufacturing methods:
 
@@ -272,9 +272,9 @@ Cross-reference with unit economics napkin math from Phase 00. Does the target p
 ```
 I'm preparing to seek funding for this product. Here's what I have so far:
 
-Market sizing: [FROM ./WORKBOOK.md § Market Sizing & Segmentation — read it, or paste here if you have no file access]
+Market sizing: [FROM ./WORKBOOK.md § Market Sizing — read it, or paste here if you have no file access]
 Competitive landscape: [FROM ./WORKBOOK.md § Competitive Deep-Dive — read it, or paste here if you have no file access]
-Unit economics: [FROM ./WORKBOOK.md § Pricing & Willingness-to-Pay Research, or ../00-opportunity-discovery/WORKBOOK.md § Unit Economics Napkin Math — read it, or paste here if you have no file access]
+Unit economics: [FROM ./WORKBOOK.md § Pricing Research, or ../00-opportunity-discovery/WORKBOOK.md § Unit Economics Napkin Math — read it, or paste here if you have no file access]
 Target customer: [FROM ../01-problem-definition/HANDOVER.md § Target User Summary — read it, or paste here if you have no file access]
 Funding path chosen: [FROM ../00-opportunity-discovery/DECISIONS.md, the funding path decision — read it, or paste here if you have no file access]
 

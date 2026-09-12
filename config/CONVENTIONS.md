@@ -60,7 +60,7 @@ Sub-tasks within each phase are **not fixed**. They depend on:
 - Project entry point (what's already done)
 - Specific choices made in earlier phases
 
-Each BRIEF.md contains a **core sub-task menu** — a list of possible sub-tasks for that phase. The user selects or adds to these based on their project. This is the primary flexibility mechanism.
+Each BRIEF.md contains a **core sub-task menu** — a list of possible sub-tasks for that phase. The user selects or adds to these based on their project, using the Phase Plan prompt at the top of PROMPT.md; the agreed selection is recorded under Phase Plan in WORKBOOK.md, never by editing BRIEF.md. This is the primary flexibility mechanism.
 
 ---
 

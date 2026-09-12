@@ -63,7 +63,8 @@ This phase is complete when:
 2. The competitive landscape is understood well enough to differentiate
 3. Key technical/manufacturing feasibility questions have first-pass answers
 4. Enough market data exists to support product definition decisions in Phase 03
-5. The HANDOVER.md provides a clear, evidence-based foundation for defining the product
+5. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+6. The HANDOVER.md provides a clear, evidence-based foundation for defining the product
 
 ---
 

@@ -60,7 +60,8 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 3. Trade-off priorities are explicit (what gives when something has to give)
 4. Success criteria are defined and measurable
 5. The definition is specific enough to generate concepts against, but not so prescriptive that it dictates solutions
-6. HANDOVER.md provides a complete brief for concept development
+6. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+7. HANDOVER.md provides a complete brief for concept development
 
 ---
 

@@ -58,7 +58,8 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 2. Each concept is described and visualised clearly enough to evaluate
 3. Concepts were evaluated against defined criteria in a structured way
 4. A primary concept is selected with clear rationale
-5. The HANDOVER captures the selected concept and key design parameters for Phase 05
+5. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+6. The HANDOVER captures the selected concept and key design parameters for Phase 05
 
 ---
 

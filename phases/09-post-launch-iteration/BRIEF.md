@@ -64,6 +64,8 @@ This phase doesn't "complete" in the traditional sense. Transition points includ
 3. **Product sunset** — the product reaches end of life and is phased out
 4. **New project entry** — learnings feed into Phase 00 of a new product development cycle
 
+Whichever transition applies, run the Critique in a fresh session before the HANDOVER is marked final.
+
 ---
 
 ## Notes

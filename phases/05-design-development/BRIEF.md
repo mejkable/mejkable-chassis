@@ -63,7 +63,8 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 3. Files are in a format suitable for prototyping
 4. A clear prototyping strategy exists for Phase 06
 5. Manufacturing feasibility has been sanity-checked
-6. HANDOVER.md provides everything needed to begin prototyping
+6. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+7. HANDOVER.md provides everything needed to begin prototyping
 
 ---
 

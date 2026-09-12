@@ -30,7 +30,7 @@ See `PROJECT.md` for full identity, vision, constraints, and the phase status tr
 4. Read the current phase's `BRIEF.md`, then run the Phase Plan prompt at the top of `PROMPT.md`: propose which sub-tasks to run, get the user's approval, record the agreed list under Phase Plan in `WORKBOOK.md`. Skip this if the Phase Plan is already there
 5. Execute sub-tasks using `PROMPT.md`, capture output in `WORKBOOK.md`
 6. Log every meaningful choice in `DECISIONS.md` (format in `config/CONVENTIONS.md`)
-7. On closing the phase (complete, or interim if it runs on in parallel), write `HANDOVER.md`, update `PROJECT.md`, commit
+7. On closing the phase (complete, or interim if it runs on in parallel), write `HANDOVER.md`, run the Critique prompt in a fresh session and act on it, then update `PROJECT.md` and commit
 
 ### Closing a session
 Do this at the end of every working session, not only at phase completion:

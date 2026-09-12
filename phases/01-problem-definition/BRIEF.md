@@ -62,7 +62,8 @@ This phase is complete when:
 2. The target user is understood well enough to make design decisions against
 3. The jobs-to-be-done are mapped and prioritised
 4. Key assumptions are inventoried and flagged for validation in Phase 02
-5. The HANDOVER.md provides enough context for Research & Insight to be targeted and efficient
+5. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+6. The HANDOVER.md provides enough context for Research & Insight to be targeted and efficient
 
 ---
 

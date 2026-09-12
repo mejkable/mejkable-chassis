@@ -68,7 +68,8 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 5. Final production cost is known and margin is acceptable
 6. Compliance/certification path is on track
 7. Production timeline is established with key milestones
-8. HANDOVER provides everything needed to begin launch preparation in parallel
+8. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+9. HANDOVER provides everything needed to begin launch preparation in parallel
 
 ---
 

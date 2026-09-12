@@ -68,7 +68,8 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 4. Launch timeline is defined with clear milestones
 5. Fulfilment and logistics can handle orders
 6. Legal basics are covered
-7. HANDOVER provides a launch execution checklist
+7. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+8. HANDOVER provides a launch execution checklist
 
 ---
 

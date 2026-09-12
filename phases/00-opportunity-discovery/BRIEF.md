@@ -59,7 +59,8 @@ This phase is complete when:
 1. The opportunity is articulated clearly enough that someone unfamiliar could understand it
 2. There's a first-pass assessment of market, customer, and viability
 3. A go/no-go/pivot decision has been made and recorded
-4. The HANDOVER.md is written with enough context for Phase 01 to begin
+4. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+5. The HANDOVER.md is written with enough context for Phase 01 to begin
 
 ---
 

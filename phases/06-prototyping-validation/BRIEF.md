@@ -62,7 +62,8 @@ Sub-tasks are a menu, not a checklist. Which ones this project runs is decided b
 3. Critical design issues have been resolved through iteration
 4. Design is frozen and documented for production handover
 5. Remaining risks are identified and accepted or mitigated
-6. HANDOVER provides a production-ready design package
+6. The Critique has been run in a fresh session and its findings addressed, or the disagreement recorded in DECISIONS.md
+7. HANDOVER provides a production-ready design package
 
 ---
 
