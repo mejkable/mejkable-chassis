@@ -18,15 +18,20 @@ Research here is targeted, not open-ended. The assumption inventory and open que
 
 ## Sub-Task Menu
 
-Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project. Core sub-tasks carry a short expansion (what it produces, how it is run, when to skip) to help you choose; Conditional and Optional keep the one-line form.
 
 ### Core (recommended for all projects)
 
 - [ ] **Competitive deep-dive** — Go beyond the Phase 01 scan. Detailed analysis of key competitors: products, pricing, positioning, strengths, weaknesses, reviews, market share.
+  *Produces:* a competitor matrix (product, price, positioning, strengths, weaknesses, distribution) and a view of where the market is crowded or open. *Run as:* solo with the agent on public sources, buying the top competitors if budget allows; one to two days. *Skip when:* an equivalent analysis exists from the last twelve months.
 - [ ] **User research synthesis** — Gather and synthesise user insights. This can range from reviewing existing data (forums, reviews, social media) to conducting interviews or surveys.
+  *Produces:* the top unmet needs, most valued attributes and the user's own language, with evidence. *Run as:* interviews or a survey, synthesised with the agent; two to three weeks of calendar time. *Skip when:* a validated profile from primary research is already in hand. A desk-only version is Low confidence and should be tagged so.
 - [ ] **Market sizing & segmentation** — Quantify the opportunity. TAM/SAM/SOM or equivalent. Validate or refine the segment chosen in Phase 01.
+  *Produces:* TAM/SAM/SOM ranges with method, growth direction and a check on the Phase 01 segment. *Run as:* solo with the agent, with a bottom-up cross-check against real channel data; half a day. *Skip when:* no funding or channel decision depends on the size and the Phase 00 estimate is enough.
 - [ ] **Assumption validation tracker** — Systematically test the top assumptions from Phase 01. Record what was validated, invalidated, or remains uncertain.
+  *Produces:* an updated status for every Phase 01 assumption with the evidence behind each. *Run as:* solo with the agent after the other research is in; two hours. *Skip when:* never. It is how Phase 03 knows what it can build on.
 - [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
+  *Produces:* a list of gaps against the done criteria, claims to downgrade to Estimated or Unknown, and a second confidence rating. *Run as:* a separate session with only the draft HANDOVER and this BRIEF; 30 minutes, then an hour to act on it. *Skip when:* never. Disagreements between producer and critic go in DECISIONS.md.
 
 ### Conditional (select based on product type and situation)
 

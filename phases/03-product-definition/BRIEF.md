@@ -18,16 +18,22 @@ This is the bridge between understanding and creation. The output is a product d
 
 ## Sub-Task Menu
 
-Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project. Core sub-tasks carry a short expansion (what it produces, how it is run, when to skip) to help you choose; Conditional and Optional keep the one-line form.
 
 ### Core (recommended for all projects)
 
 - [ ] **Requirements definition** — Functional requirements (what it must do), performance requirements (how well), and constraints (what it must not do or exceed).
+  *Produces:* functional, performance and constraint requirements, each with source, priority and a way to verify it. *Run as:* solo with the agent from the Phase 01 and 02 handovers, then reviewed with whoever will design or make the product; half a day plus review. *Skip when:* never.
 - [ ] **User experience definition** — How the user interacts with the product from discovery through disposal. Key moments, touchpoints, and experience goals.
+  *Produces:* a journey from discovery to end of life, with the ideal experience, friction points and design implications at each stage. *Run as:* a short workshop if you have a team, otherwise solo with the agent; two to three hours. *Skip when:* the product is a component or B2B part with no consumer experience to design.
 - [ ] **Target specification** — Measurable targets: dimensions, weight, battery life, material properties, player count, component count — whatever is quantifiable for this product.
+  *Produces:* a table of measurable targets with acceptable ranges and competitor benchmarks. *Run as:* solo with the agent, then checked with an engineer or manufacturer for the technical rows; half a day, longer if you measure competitor units. *Skip when:* the requirements are already fully quantified.
 - [ ] **Prioritisation framework** — Must-have vs. should-have vs. nice-to-have. Use MoSCoW or similar to rank requirements. This is where trade-offs begin.
+  *Produces:* a MoSCoW ranking with the contested calls and the minimum lovable product marked out. *Run as:* a workshop with everyone who has a say; two hours. *Skip when:* a single decision-maker has already ranked the requirements in DECISIONS.md.
 - [ ] **Success criteria** — How will you know the product is good enough? Define measurable benchmarks for launch readiness.
+  *Produces:* the measurable benchmarks that say the product is good enough to launch. *Run as:* solo with the agent from the requirements and targets; an hour. *Skip when:* never. Phase 06 tests against these.
 - [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
+  *Produces:* a list of gaps against the done criteria, claims to downgrade to Estimated or Unknown, and a second confidence rating. *Run as:* a separate session with only the draft HANDOVER and this BRIEF; 30 minutes, then an hour to act on it. *Skip when:* never. Disagreements between producer and critic go in DECISIONS.md.
 
 ### Conditional (select based on product type)
 

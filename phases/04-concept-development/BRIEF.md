@@ -18,15 +18,20 @@ This is the most creative phase. The goal is to explore broadly before narrowing
 
 ## Sub-Task Menu
 
-Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project. Core sub-tasks carry a short expansion (what it produces, how it is run, when to skip) to help you choose; Conditional and Optional keep the one-line form.
 
 ### Core (recommended for all projects)
 
 - [ ] **Concept ideation** — Generate multiple distinct concepts (aim for 3-5 minimum). Each should represent a meaningfully different approach, not just cosmetic variations.
+  *Produces:* four to five meaningfully different concepts, each with a core idea, how it works, strengths, risks and a first manufacturing read. *Run as:* a workshop with sketching, half a day; or solo with the agent in two hours at narrower range. *Skip when:* the project entered with a concept already chosen and Phase 03 confirmed it fits the definition.
 - [ ] **Concept description & visualisation** — Describe each concept clearly. Include rough sketches, AI-generated visuals, reference images, or mood boards. Someone who wasn't in the room should be able to understand each concept.
+  *Produces:* a description and visual reference for each concept that a newcomer could understand. *Run as:* outside the chassis: sketches, image generation, mood boards, reference photos; one to two days. *Skip when:* concepts are simple enough to be unambiguous in text alone, which is rare for physical products.
 - [ ] **Concept evaluation matrix** — Score each concept against the evaluation criteria from Phase 03. Use a structured matrix to make the comparison explicit and fair.
+  *Produces:* weighted scores for each concept against the Phase 03 criteria, with the trade-offs made explicit. *Run as:* solo with the agent, then scores reviewed by the team; two hours. *Skip when:* there is only one viable concept, and record why in DECISIONS.md.
 - [ ] **Concept selection & rationale** — Choose the winning concept(s) and document why. Record what was sacrificed in the alternatives.
+  *Produces:* the chosen concept, why it won, what was sacrificed and what to keep from the others. *Run as:* a decision meeting, recorded in DECISIONS.md and the WORKBOOK; an hour. *Skip when:* never. This sub-task is the gate decision for the phase.
 - [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
+  *Produces:* a list of gaps against the done criteria, claims to downgrade to Estimated or Unknown, and a second confidence rating. *Run as:* a separate session with only the draft HANDOVER and this BRIEF; 30 minutes, then an hour to act on it. *Skip when:* never. Disagreements between producer and critic go in DECISIONS.md.
 
 ### Conditional (select based on product type)
 

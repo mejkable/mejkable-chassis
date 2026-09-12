@@ -20,16 +20,22 @@ Launch preparation often runs in parallel with Phases 06 and 07. Don't wait unti
 
 ## Sub-Task Menu
 
-Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project. Core sub-tasks carry a short expansion (what it produces, how it is run, when to skip) to help you choose; Conditional and Optional keep the one-line form.
 
 ### Core (recommended for all projects)
 
 - [ ] **Pricing strategy** — Final pricing: retail, wholesale, DTC. Margin analysis across channels. Promotional pricing plan.
+  *Produces:* the retail price, a channel pricing matrix, promotional plan and margin check. *Run as:* solo with the agent from landed cost and Phase 02 pricing research, then sanity-checked with a channel partner; half a day. *Skip when:* the price is fixed by a retailer or by a crowdfunding campaign already run.
 - [ ] **Channel strategy** — Which channels to launch in, in what order. Requirements for each channel. Timeline.
+  *Produces:* the launch channel list, the order to open them, and the requirements and timeline for each. *Run as:* a decision with the Phase 02 channel research at hand, recorded in DECISIONS.md; two hours. *Skip when:* never. Every other sub-task in this phase depends on it.
 - [ ] **Brand messaging & positioning** — Core value proposition, tagline, key messages, tone of voice. What to say and how.
+  *Produces:* the positioning statement, value proposition, key messages, tagline options and tone of voice. *Run as:* a small workshop or with a copywriter, drafted with the agent; a day. *Skip when:* an existing brand already has these and the product inherits them.
 - [ ] **Launch plan** — Timeline of launch activities. Phased rollout or big bang. Key milestones and dependencies.
+  *Produces:* a pre-launch, launch-week and first-30-days timeline with metrics and a resource reality check. *Run as:* solo with the agent; half a day. *Skip when:* never, even for a soft launch. Shrink it instead.
 - [ ] **Sales & marketing collateral** — What materials are needed: product photography, website, listings, sell sheets, social content.
+  *Produces:* the asset list with owner, status and deadline, and the assets themselves. *Run as:* outside the chassis: photography, copy, listings, sell sheets; two to four weeks. *Skip when:* never. Cut the list instead.
 - [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
+  *Produces:* a list of gaps against the done criteria, claims to downgrade to Estimated or Unknown, and a second confidence rating. *Run as:* a separate session with only the draft HANDOVER and this BRIEF; 30 minutes, then an hour to act on it. *Skip when:* never. Disagreements between producer and critic go in DECISIONS.md.
 
 ### Conditional (select based on product type and channel)
 

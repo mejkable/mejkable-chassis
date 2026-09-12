@@ -18,15 +18,20 @@ Some projects enter the chassis with this already resolved (gut conviction, prov
 
 ## Sub-Task Menu
 
-Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project. Core sub-tasks carry a short expansion (what it produces, how it is run, when to skip) to help you choose; Conditional and Optional keep the one-line form.
 
 ### Core (recommended for all projects)
 
 - [ ] **Opportunity framing** — Articulate the opportunity in plain language. What have you noticed? Why might it matter?
+  *Produces:* a one-paragraph opportunity statement, an explicit list of assumptions and three questions to answer next. *Run as:* solo with the agent from a rough description; 30–60 minutes. *Skip when:* a written brief or commissioned spec already states the opportunity, and even then read it against the prompt's questions.
 - [ ] **Initial market scan** — Is there an existing market? How big roughly? Growing or shrinking? Who are the current players?
+  *Produces:* a category overview, the main players with price points, direction of travel and obvious gaps. *Run as:* solo with the agent on public information; an hour, longer if you buy a report. *Skip when:* you already know the category well and Phase 02 will run the full competitive deep-dive soon anyway.
 - [ ] **Target customer sketch** — Who would buy this? First-pass persona or customer segment description.
+  *Produces:* a first-pass segment description: who buys, why, where they shop, what they use today. *Run as:* solo with the agent; 30 minutes. *Skip when:* a validated user profile already exists from earlier work; the Phase 01 deep-dive supersedes it either way.
 - [ ] **Founder-market fit check** — Why are you/your team the right people? What unfair advantages or relevant experience exist?
+  *Produces:* an honest list of advantages, gaps, and whether the gaps are fillable. *Run as:* solo, then read with one candid advisor; 30 minutes plus a conversation. *Skip when:* the team's fit is obvious and already argued in PROJECT.md. Do not skip because it feels uncomfortable.
 - [ ] **Critique** — A fresh session in the sceptical role named in `PROMPT.md` reads the draft HANDOVER against the done criteria and returns gaps, unsupported claims and its own confidence rating. Run last, before the handover is marked final.
+  *Produces:* a list of gaps against the done criteria, claims to downgrade to Estimated or Unknown, and a second confidence rating. *Run as:* a separate session with only the draft HANDOVER and this BRIEF; 30 minutes, then an hour to act on it. *Skip when:* never. Disagreements between producer and critic go in DECISIONS.md.
 
 ### Conditional (select based on product type and situation)
 
