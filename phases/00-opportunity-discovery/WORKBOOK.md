@@ -1,5 +1,20 @@
 # Phase 00 — Opportunity Discovery: WORKBOOK
 
+## Phase Plan
+
+[Written by the Phase Plan prompt in PROMPT.md once the user has approved it. Sub-task selection lives here, never as ticks in BRIEF.md. Update the Status column as the phase runs.]
+
+| Sub-task | Tier | Format | Why it applies to this project | Status |
+|---|---|---|---|---|
+| | Core / Conditional / Optional | | | planned / done / skipped |
+
+**Skipped from the menu, and why:**
+- 
+
+**Approved by:** [user] on [date]
+
+---
+
 ## How to Use
 
 This is the working document for Phase 00. Paste agent outputs, notes, and findings here under the relevant sub-task headings. This is a living document — it will be messy, and that's fine. The clean summary goes in HANDOVER.md.

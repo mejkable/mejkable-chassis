@@ -18,6 +18,8 @@ A well-defined problem constrains everything downstream — concept development,
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Problem statement drafting** — Write a clear, specific problem statement. What is the problem, who experiences it, in what context, and what are the consequences of it going unsolved?

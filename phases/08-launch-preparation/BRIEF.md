@@ -20,6 +20,8 @@ Launch preparation often runs in parallel with Phases 06 and 07. Don't wait unti
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Pricing strategy** — Final pricing: retail, wholesale, DTC. Margin analysis across channels. Promotional pricing plan.

@@ -18,6 +18,8 @@ This is where concept becomes engineering. CAD models, detailed drawings, materi
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Detailed design development** — Resolve the concept into a complete design. All parts, dimensions, interfaces, and assembly defined. For physical products this typically means CAD. For print products this means production-ready artwork layout.

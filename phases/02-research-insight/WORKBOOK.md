@@ -1,5 +1,20 @@
 # Phase 02 — Research & Insight: WORKBOOK
 
+## Phase Plan
+
+[Written by the Phase Plan prompt in PROMPT.md once the user has approved it. Sub-task selection lives here, never as ticks in BRIEF.md. Update the Status column as the phase runs.]
+
+| Sub-task | Tier | Format | Why it applies to this project | Status |
+|---|---|---|---|---|
+| | Core / Conditional / Optional | | | planned / done / skipped |
+
+**Skipped from the menu, and why:**
+- 
+
+**Approved by:** [user] on [date]
+
+---
+
 ## How to Use
 
 Capture all research outputs here. This phase typically generates the most material — keep it organised under clear headings. Raw data is fine. The clean summary goes in HANDOVER.md.

@@ -18,6 +18,8 @@ This is where the product meets reality. Prototypes expose problems that analysi
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Prototype build planning** — Finalise prototype specifications, vendor/method selection, timeline, and budget. Execute the roadmap from Phase 05.

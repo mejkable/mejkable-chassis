@@ -18,7 +18,7 @@ Some projects enter the chassis with this already resolved (gut conviction, prov
 
 ## Sub-Task Menu
 
-Select the sub-tasks relevant to your project. Not all are required — pick what fits your product category and stage.
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
 
 ### Core (recommended for all projects)
 

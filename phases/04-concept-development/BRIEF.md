@@ -18,6 +18,8 @@ This is the most creative phase. The goal is to explore broadly before narrowing
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Concept ideation** — Generate multiple distinct concepts (aim for 3-5 minimum). Each should represent a meaningfully different approach, not just cosmetic variations.

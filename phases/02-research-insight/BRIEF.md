@@ -18,6 +18,8 @@ Research here is targeted, not open-ended. The assumption inventory and open que
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Competitive deep-dive** — Go beyond the Phase 01 scan. Detailed analysis of key competitors: products, pricing, positioning, strengths, weaknesses, reviews, market share.

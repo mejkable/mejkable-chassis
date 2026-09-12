@@ -18,6 +18,8 @@ This is where the product leaves the design studio and enters the factory. Tooli
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Supplier selection & contracting** — Evaluate, select, and engage manufacturers. Get quotes, review capabilities, negotiate terms.

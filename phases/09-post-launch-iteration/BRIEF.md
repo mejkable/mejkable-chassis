@@ -18,6 +18,8 @@ This is not a one-time phase — it's an ongoing operating mode. The product is 
 
 ## Sub-Task Menu
 
+Sub-tasks are a menu, not a checklist. Which ones this project runs is decided by the Phase Plan prompt in `PROMPT.md` and recorded under Phase Plan in `WORKBOOK.md`, never by ticking boxes here: this file is not edited in a live project.
+
 ### Core (recommended for all projects)
 
 - [ ] **Performance monitoring** — Track key metrics: sales, revenue, conversion, return rate, customer acquisition cost. Regular cadence (daily in week 1, weekly thereafter).
